@@ -321,6 +321,30 @@ img { max-width: 100%; height: auto; display: block; }
   flex: none;
 }
 
+/* 专题页快速入口 pill */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 36px;
+}
+.quick-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: var(--teal-50);
+  color: var(--teal-800);
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid var(--teal-100);
+}
+.quick-links a:hover {
+  background: var(--teal-100);
+  color: var(--teal-700);
+}
+
 /* ===== 政策 / 法律页 ===== */
 .prose { max-width: 760px; }
 .prose .updated {
