@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>USDT Transferi Gelmedi: TxID, Ağ ve Adres Nasıl Kontrol Edilir?</title>
+  <meta name="description" content="USDT gönderdiniz ama gelmedi mi? TxID, blockchain durumu, ağ, adres, blok onayı ve platform yatırma durumunu adım adım kontrol edin.">
+  <meta name="author" content="KriptoAdım">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://kriptoadm.com/usdt-transferi-gelmedi/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="USDT Transferi Gelmedi: TxID, Ağ ve Adres Nasıl Kontrol Edilir?">
+  <meta property="og:description" content="USDT gönderdiniz ama gelmedi mi? TxID, blockchain durumu, ağ, adres, blok onayı ve platform yatırma durumunu adım adım kontrol edin.">
+  <meta property="og:url" content="https://kriptoadm.com/usdt-transferi-gelmedi/">
+  <meta property="og:site_name" content="KriptoAdım">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="USDT Transferi Gelmedi: TxID, Ağ ve Adres Nasıl Kontrol Edilir?">
+  <meta name="twitter:description" content="USDT gönderdiniz ama gelmedi mi? TxID, blockchain durumu, ağ, adres, blok onayı ve platform yatırma durumunu adım adım kontrol edin.">
+
+  <!-- Schema.org: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://kriptoadm.com/"},
+      {"@type": "ListItem", "position": 2, "name": "USDT & Transfer", "item": "https://kriptoadm.com/usdt-transfer/"},
+      {"@type": "ListItem", "position": 3, "name": "USDT Transferi Gelmedi", "item": "https://kriptoadm.com/usdt-transferi-gelmedi/"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "USDT Transferi Gelmedi: Ne Yapmalıyım?",
+    "description": "USDT gönderdiniz ama gelmedi mi? TxID, blockchain durumu, ağ, adres, blok onayı ve platform yatırma durumunu adım adım kontrol edin.",
+    "inLanguage": "tr-TR",
+    "author": {"@type": "Organization", "name": "KriptoAdım"},
+    "publisher": {"@type": "Organization", "name": "KriptoAdım"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kriptoadm.com/usdt-transferi-gelmedi/"},
+    "datePublished": "2026-09-05",
+    "dateModified": "2026-09-05"
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "USDT gönderdim neden gelmedi?", "acceptedAnswer": {"@type": "Answer", "text": "İşlem henüz blockchain'e gönderilmemiş, ağ onayı bekliyor, yanlış ağ kullanılmış veya alıcı platform henüz yatırmayı hesaba yansıtmamış olabilir."}},
+      {"@type": "Question", "name": "TxID varsa para gönderilmiş midir?", "acceptedAnswer": {"@type": "Answer", "text": "TxID işlemin blockchain'e gönderildiğini gösteren önemli bir kayıttır ancak işlemin başarılı olup olmadığını explorer üzerinden ayrıca kontrol etmek gerekir."}},
+      {"@type": "Question", "name": "TxID successful ama USDT neden yok?", "acceptedAnswer": {"@type": "Answer", "text": "Doğru ağ, adres, blok onayı, minimum yatırma ve alıcı platformun işlem durumunu kontrol edin."}},
+      {"@type": "Question", "name": "USDT transferi kaç dakika sürer?", "acceptedAnswer": {"@type": "Answer", "text": "Kesin süre yoktur. Blockchain ağı, onay sayısı ve platform işlemleri süreyi etkiler."}},
+      {"@type": "Question", "name": "Yanlış ağdan gönderilen USDT kurtarılır mı?", "acceptedAnswer": {"@type": "Answer", "text": "Bazı durumlarda mümkün olabilir ancak garanti değildir. Alıcı platformun teknik desteğine bağlıdır."}},
+      {"@type": "Question", "name": "USDT blockchain'de görünüyor ama cüzdanımda görünmüyor, neden?", "acceptedAnswer": {"@type": "Answer", "text": "Cüzdan doğru ağı veya token'ı göstermiyor olabilir. Explorer'da bakiye görünüyorsa cüzdan arayüzünü kontrol edin."}},
+      {"@type": "Question", "name": "Minimum yatırma tutarının altında gönderirsem ne olur?", "acceptedAnswer": {"@type": "Answer", "text": "Platforma göre bakiye otomatik yansımayabilir ve kurtarma desteği sınırlı olabilir."}},
+      {"@type": "Question", "name": "Destek ekibine seed phrase vermeli miyim?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Seed phrase veya özel anahtarınızı hiçbir destek görevlisiyle paylaşmayın."}}
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="KriptoAdım — Ana Sayfa">
+        <svg width="34" height="34" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="11" fill="#0F766E"/><path d="M11 28h6v-6h6v-6h7" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="logo-text">Kripto<span>Adım</span></div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" role="navigation" aria-label="Ana Menü">
+        <a href="/baslangic/">Başlangıç</a>
+        <a href="/borsalar/">Borsalar</a>
+        <a href="/usdt-transfer/" class="active">USDT &amp; Transfer</a>
+        <a href="/cuzdan/">Cüzdan</a>
+        <a href="/guvenlik/">Güvenlik</a>
+        <a href="/sorun-cozme/">Sorun Çözme</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <ol>
+          <li><a href="/">Ana Sayfa</a></li>
+          <li><a href="/usdt-transfer/">USDT &amp; Transfer</a></li>
+          <li>USDT Transferi Gelmedi</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Page header -->
+    <div class="page-header">
+      <div class="container">
+        <h1>USDT Transferi Gelmedi: Ne Yapmalıyım?</h1>
+        <p class="lead">Transferiniz alıcı hesabında görünmüyorsa sorunun gönderen platformda mı, blockchain üzerinde mi yoksa alıcı platformda mı olduğunu belirleyin.</p>
+      </div>
+    </div>
+
+    <!-- KISA CEVAP -->
+    <section class="section">
+      <div class="container">
+        <div class="info-card">
+          <h3>Kısa Cevap</h3>
+          <p>USDT transferiniz alıcı hesabında görünmüyorsa hemen “para kayboldu” sonucuna varmayın. Önce şu sırayla kontrol edin:</p>
+          <ol>
+            <li>Gönderen platformda çekim tamamlandı mı?</li>
+            <li>İşlem için bir TxID oluştu mu?</li>
+            <li>TxID blockchain üzerinde başarılı görünüyor mu?</li>
+            <li>Gönderilen ağ ile alıcı tarafın yatırma ağı aynı mı?</li>
+            <li>Alıcı adresi doğru mu?</li>
+            <li>Yeterli blok onayı oluştu mu?</li>
+            <li>Alıcı platform işlemi henüz hesaba yansıtmamış olabilir mi?</li>
+            <li>Minimum yatırma tutarı veya başka bir yatırma şartı var mı?</li>
+          </ol>
+          <p>Bu kontroller, sorunun gönderen platformda mı, blockchain üzerinde mi yoksa alıcı platformda mı olduğunu anlamanıza yardımcı olur.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÖNCE TXID VAR MI -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Önce TxID Var mı Kontrol Edin</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>USDT transferinde ilk bakmanız gereken bilgilerden biri <strong>TxID</strong> veya <strong>Transaction Hash</strong> bilgisidir. TxID, blockchain üzerinde gönderilen işlemin benzersiz kimliğidir.</p>
+          <p>Gönderen platformda çekim geçmişini açın ve işlem detaylarında TxID olup olmadığını kontrol edin. Eğer TxID henüz oluşmadıysa transfer blockchain'e gönderilmemiş olabilir. Bu durumda sorun genellikle blockchain'den önce, gönderen platform tarafındadır. Örneğin:</p>
+          <ul>
+            <li>Çekim hâlâ işleniyor olabilir.</li>
+            <li>Güvenlik kontrolü devam ediyor olabilir.</li>
+            <li>Çekim onayı tamamlanmamış olabilir.</li>
+            <li>Platform geçici olarak ilgili ağı durdurmuş olabilir.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TXID NEDİR -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">TxID Nedir?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>TxID, blockchain işlemini takip etmek için kullanılan işlem numarasıdır. USDT hangi ağdan gönderildiyse TxID o blockchain'in explorer'ında aranabilir. Örneğin işlem:</p>
+          <ul>
+            <li>Ethereum üzerindeyse Ethereum explorer'ında</li>
+            <li>TRON üzerindeyse TRON explorer'ında</li>
+            <li>Arbitrum üzerindeyse ilgili Arbitrum explorer'ında</li>
+          </ul>
+          <p>kontrol edilir. TxID sayesinde işlemin gerçekten blockchain'e gönderilip gönderilmediğini görebilirsiniz.</p>
+          <a href="/kripto-transferi-nasil-takip-edilir/" class="card-cta">Kripto Transferi Nasıl Takip Edilir? →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TXID VAR AMA GELMEDİ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">TxID Var Ama USDT Gelmedi</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>TxID varsa bir sonraki soru şudur: <strong>Blockchain işlemi başarılı mı?</strong> Explorer üzerinde genellikle işlem durumlarından biri görülür:</p>
+          <ul>
+            <li>Pending</li>
+            <li>Success / Confirmed</li>
+            <li>Failed</li>
+          </ul>
+          <p>Her durum farklı bir soruna işaret eder.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PENDING -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">İşlem Pending Görünüyor</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Pending, işlemin henüz yeterli şekilde doğrulanmadığı anlamına gelir. Bunun nedenleri arasında:</p>
+          <ul>
+            <li>Ağ yoğunluğu</li>
+            <li>İşlem ücretinin düşük olması</li>
+            <li>Blockchain doğrulama süresi</li>
+            <li>Platformun işlemi yeni yayınlamış olması</li>
+          </ul>
+          <p>Bu durumda alıcı platform henüz USDT'yi hesaba yansıtmayabilir. Bir süre sonra aynı TxID'yi tekrar kontrol edin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUCCESS AMA BAKİYE YOK -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">İşlem Success Görünüyor Ama Bakiye Gelmedi</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Blockchain explorer işlem için <strong>Success</strong> veya benzeri başarılı durum gösteriyorsa, işlem blockchain üzerinde gerçekleşmiş olabilir. Bu noktada şu kontroller önem kazanır:</p>
+          <ol>
+            <li>Doğru ağ kullanıldı mı?</li>
+            <li>Doğru alıcı adresine mi gönderildi?</li>
+            <li>Alıcı platform yeterli blok onayını bekliyor mu?</li>
+            <li>Yatırılan miktar minimum sınırın üzerinde mi?</li>
+            <li>Alıcı platformda yatırma gecikmesi veya bakım var mı?</li>
+          </ol>
+          <p>Yani blockchain üzerinde başarılı görünen transferin platform bakiyesine aynı saniyede yansıması gerekmez.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOK ONAYI -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Blok Onayı Nedir?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Bir blockchain işlemi yapıldıktan sonra alıcı platform belirli sayıda onay bekleyebilir. Bu sayı:</p>
+          <ul>
+            <li>Kripto varlığa</li>
+            <li>Kullanılan ağa</li>
+            <li>Alıcı platformun politikasına</li>
+          </ul>
+          <p>göre değişebilir.</p>
+          <p>Örneğin OKX TR'nin Ağustos 2026'da güncellenen yardım içeriği, yatırma süresinin blockchain onay hızına ve platformun gerekli gördüğü onay sayısına bağlı olduğunu belirtiyor. Aynı içerikte USDT için örnek olarak TRON ağında 19, Ethereum ağında 32 onay veriliyor; ancak platform bu rakamların güncel ekran üzerinden kontrol edilmesini öneriyor. (<a href="https://tr.okx.com/en/help/how-long-does-it-take-for-a-deposit-to-be-completed-tr" target="_blank" rel="nofollow noopener">OKX TR yatırma süresi rehberi</a>)</p>
+          <p>Bu nedenle eski bir makalede gördüğünüz sabit “X onay yeterlidir” bilgisini her zaman güncel kabul etmeyin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOĞRU AĞ MI -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Doğru Ağı mı Kullandınız?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>USDT birden fazla blockchain üzerinde bulunabilir. Bu nedenle alıcı adresinin yanında mutlaka ağ bilgisini de kontrol edin. Örneğin alıcı taraf <strong>USDT – ERC20</strong> yatırma adresi verdiyse, gönderen tarafta da ERC20 seçilmelidir.</p>
+          <p>Gönderen tarafta TRC20 seçip alıcı tarafta ERC20 yatırma adresi kullanmak ciddi sorun yaratabilir. OKX TR'nin güncel rehberi de çekim ağı ile yatırma ağının aynı olması gerektiğini açıkça belirtiyor. (<a href="https://tr.okx.com/en/help/how-do-i-select-the-correct-network-for-my-crypto-withdrawals-and-deposits-tr" target="_blank" rel="nofollow noopener">OKX TR ağ seçimi rehberi</a>)</p>
+          <a href="/usdt-hangi-agdan-gonderilmeli/" class="card-cta">USDT Hangi Ağdan Gönderilmeli? →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- YANLIŞ AĞ SEÇTİYSEM -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Yanlış Ağ Seçtiysem Ne Olur?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Yanlış ağ kullanılması, USDT'nin alıcı platformda otomatik görünmemesine neden olabilir. Kurtarma ihtimali şu faktörlere bağlıdır:</p>
+          <ul>
+            <li>Kullanılan blockchain</li>
+            <li>Alıcı adresinin teknik yapısı</li>
+            <li>Alıcı platformun o ağı destekleyip desteklemediği</li>
+            <li>Platformun recovery hizmeti sunup sunmadığı</li>
+            <li>Özel anahtarın kimde olduğu</li>
+          </ul>
+          <p>Bazı durumlarda kurtarma mümkün olabilir, bazı durumlarda olmayabilir. OKX TR, yanlış adres veya yanlış ağ durumunda destek talebi açılmasını öneriyor ancak kurtarmanın garanti edilmediğini açıkça belirtiyor. (<a href="https://tr.okx.com/en/help/what-should-i-do-if-i-deposit-to-the-wrong-address-tr" target="_blank" rel="nofollow noopener">OKX TR yanlış adres rehberi</a>)</p>
+          <a href="/yanlis-agdan-usdt-gonderdim/" class="card-cta">Yanlış Ağdan USDT Gönderdim →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADRES DOĞRU MU -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Adres Doğru mu?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Blockchain üzerinde transfer geri alınamaz nitelikte olabilir. Bu nedenle TxID üzerinden gönderilen adresi alıcının verdiği adresle karakter karakter karşılaştırın. Özellikle şu hatalara dikkat edin:</p>
+          <ul>
+            <li>Adresin başı doğru ama sonu farklı</li>
+            <li>Eski kayıtlı adres kullanılması</li>
+            <li>Başka bir borsa hesabının adresinin kopyalanması</li>
+            <li>Clipboard değiştiren zararlı yazılım</li>
+            <li>Benzer görünen sahte adres</li>
+            <li>Yanlış ağdaki benzer adres</li>
+          </ul>
+          <p>Adres yanlışsa ağın doğru olması tek başına yeterli değildir.</p>
+          <a href="/yanlis-adrese-usdt-gonderdim/" class="card-cta">USDT Yanlış Adrese Gönderildi →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADRES AYNI GÖRÜNÜYOR -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Adres Aynı Görünüyor Ama Yine de Gelmedi</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Bazı blockchain ağlarında adres biçimi aynı veya çok benzer olabilir. Özellikle EVM uyumlu ağlarda aynı <code>0x...</code> adresi farklı ağlarda kullanılabilir. Bu nedenle:</p>
+          <blockquote class="pullquote"><strong>Adres doğru görünüyor = ağ kesin doğru</strong> sonucuna varmayın.</blockquote>
+          <p>Adres ve ağı ayrı ayrı kontrol edin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALICI PLATFORM AĞI DESTEKLİYOR MU -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Alıcı Platform USDT Ağını Destekliyor mu?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Bir cüzdanın veya borsanın “USDT desteklemesi”, bütün USDT ağlarını desteklediği anlamına gelmez. Örneğin bir platform:</p>
+          <ul>
+            <li>ERC20 destekleyebilir</li>
+            <li>TRC20 destekleyebilir</li>
+            <li>Arbitrum destekleyebilir</li>
+          </ul>
+          <p>ancak başka bir ağı desteklemeyebilir. USDT'nin kendisi birçok blockchain üzerinde bulunabilir; Tether da USD₮'nin birden fazla blockchain üzerinde çalıştığını resmi olarak belirtiyor. (<a href="https://tether.to/en/why-tether/" target="_blank" rel="nofollow noopener">Tether</a>)</p>
+          <p>Bu nedenle yatırma öncesinde alıcı platformun güncel ağ listesini kontrol edin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MİNİMUM YATIRMA -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Minimum Yatırma Tutarı Sorun Olabilir mi?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Evet. Bazı platformlar belirli varlık ve ağlar için minimum yatırma tutarı uygular. Örneğin 10 USDT minimum yatırma şartı bulunan bir yere daha düşük miktar gönderdiyseniz blockchain işlemi başarılı olsa bile bakiye otomatik olarak hesabınıza geçmeyebilir.</p>
+          <p>OKX TR güncel yardım içeriğinde, minimum yatırma tutarının altında kalan kripto yatırmaların hesaba yansımayabileceğini ve yalnızca bazı varlıklar için kurtarma desteği sunulduğunu belirtiyor. (<a href="https://tr.okx.com/en/help/tr-do-i-need-to-pay-fees-for-deposit-and-withdrawal" target="_blank" rel="nofollow noopener">OKX TR ücret rehberi</a>)</p>
+          <p>Bu nedenle alıcı tarafın yatırma ekranındaki şu alanları kontrol edin:</p>
+          <ul>
+            <li>Minimum yatırma</li>
+            <li>Ağ</li>
+            <li>Adres</li>
+            <li>Gerekli ek bilgiler</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMO / TAG -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Memo veya Tag Eksik Olabilir mi?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>USDT transferlerinde çoğu yaygın ağda memo gerekmese de bu kavramı bilmek faydalıdır. Bazı kripto varlık ve ağlarda yalnızca adres değil, ayrıca:</p>
+          <ul>
+            <li>Memo</li>
+            <li>Tag</li>
+            <li>Payment ID</li>
+          </ul>
+          <p>gibi ek bilgi gerekir. OKX TR de bazı kripto yatırmalarında adresin yanında tag/memo gerekebileceğini belirtiyor. (<a href="https://tr.okx.com/en/help/how-do-i-find-my-deposit-address-and-tag-memos-tr" target="_blank" rel="nofollow noopener">OKX TR adres/tag rehberi</a>)</p>
+          <p>USDT için kullandığınız ağda böyle bir alan gösterilmiyorsa rastgele memo eklemeyin. Platformun yatırma ekranında ne gösteriliyorsa onu esas alın.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BINANCE TR'DEN -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Binance TR'den USDT Gönderdim Ama Gelmedi</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Binance TR'den başka bir borsaya veya cüzdana USDT gönderdiyseniz şu kontrolleri yapın:</p>
+        </div>
+        <ol class="checklist">
+          <li>Binance TR çekim geçmişini açın.</li>
+          <li>İşlem durumunun tamamlanıp tamamlanmadığına bakın.</li>
+          <li>TxID'yi kopyalayın.</li>
+          <li>İşlemi doğru blockchain explorer'ında kontrol edin.</li>
+          <li>Alıcı adresini karşılaştırın.</li>
+          <li>Gönderilen ağ ile yatırma ağının aynı olduğundan emin olun.</li>
+          <li>Alıcı platformun gerekli onay sayısını bekleyin.</li>
+        </ol>
+        <div class="prose" style="margin-top:18px;">
+          <p>TxID oluşmadıysa sorun henüz blockchain aşamasına gelmemiş olabilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OKX TR'YE -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">OKX TR'ye USDT Gönderdim Ama Gelmedi</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>OKX TR'ye transfer yapıyorsanız yatırma ekranındaki ağ ve adres bilgilerini kontrol edin. OKX TR'nin güncel yardım merkezinde doğrudan <strong>Deposit wasn't credited</strong> ve <strong>Withdrawal hasn't arrived</strong> sorun çözme araçları da bulunuyor. (<a href="https://tr.okx.com/en/help" target="_blank" rel="nofollow noopener">OKX TR yardım merkezi</a>)</p>
+          <p>Blockchain işlemi başarılıysa ancak bakiye görünmüyorsa şunları kontrol edin:</p>
+          <ul>
+            <li>Onay sayısı</li>
+            <li>Minimum yatırma</li>
+            <li>Doğru ağ</li>
+            <li>Doğru adres</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- BORSADAN CÜZDANA -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Borsadan Cüzdana Gönderdim Ama USDT Görünmüyor</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Kişisel cüzdanda farklı bir durum daha olabilir: USDT gerçekten cüzdan adresine gelmiş olabilir ancak token arayüzde otomatik görünmüyor olabilir. Blockchain explorer üzerinden adresinizde USDT bakiyesi görünüyorsa sorun transfer değil, cüzdan arayüzü olabilir. Bu durumda:</p>
+          <ul>
+            <li>Doğru ağı seçin</li>
+            <li>USDT token'ını cüzdana ekleyin</li>
+            <li>Resmî token sözleşmesini doğrulayın</li>
+          </ul>
+          <p>Ancak internette rastgele bulduğunuz token contract adreslerini eklemeyin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÜZDANDA TOKEN GÖRÜNMÜYOR -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Cüzdanda Token Görünmüyor Ama Explorer'da Var</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Bu durumda varlık blockchain üzerinde gelmiş olabilir. Cüzdan uygulaması yalnızca token'ı otomatik listelemiyor olabilir. Örneğin yeni bir ağda USDT aldıysanız:</p>
+          <ul>
+            <li>Ağı cüzdana eklemek</li>
+            <li>Token görünürlüğünü açmak</li>
+            <li>Resmî sözleşme adresini eklemek</li>
+          </ul>
+          <p>gerekebilir. Bu durum “USDT kayboldu” anlamına gelmez.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TXID YOKSA -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">TxID Yoksa Ne Yapmalıyım?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>TxID yoksa alıcı platformdan önce gönderen tarafı kontrol edin. Çünkü işlem henüz blockchain üzerinde bulunmayabilir. Kontrol edin:</p>
+        </div>
+        <ul class="check-list">
+          <li>Çekim beklemede mi?</li>
+          <li>E-posta onayı tamamlandı mı?</li>
+          <li>2FA doğrulaması yapıldı mı?</li>
+          <li>Çekim güvenlik incelemesinde mi?</li>
+          <li>Ağ geçici olarak kapalı mı?</li>
+          <li>Hesapta güvenlik kısıtlaması var mı?</li>
+        </ul>
+        <div class="prose" style="margin-top:18px;">
+          <p>Bu aşamada blockchain explorer'da işlem aramak fayda sağlamaz.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TXID VAR AMA EXPLORER'DA YOK -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">TxID Var Ama Explorer'da Bulunmuyor</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Bazen platform TxID bilgisini oluşturmuş gibi görünebilir ancak explorer henüz işlemi indekslememiş olabilir. Kısa bir süre sonra tekrar kontrol edin. Ancak uzun süre hiçbir explorer kaydı oluşmuyorsa gönderen platformun destek ekibiyle iletişime geçmek gerekebilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAILED -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">İşlem Failed Görünüyor</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Blockchain explorer işlem durumunu başarısız olarak gösteriyorsa transfer tamamlanmamış olabilir. Bu durumda fonların durumu kullanılan platform veya cüzdan türüne göre değişebilir.</p>
+          <p>Borsadan yapılan çekimlerde gönderen platformdaki çekim geçmişini kontrol edin. Kişisel cüzdandan yapılan işlemde ise blockchain üzerinde gas ücreti harcanmış olsa bile token transferi gerçekleşmemiş olabilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NE KADAR BEKLEMELİYİM -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Ne Kadar Beklemeliyim?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>USDT için tek bir evrensel süre yoktur. Transfer süresini şu faktörler etkiler:</p>
+          <ul>
+            <li>Kullanılan blockchain</li>
+            <li>Ağ yoğunluğu</li>
+            <li>Blockchain onay süresi</li>
+            <li>Gönderen platformun çekim işleme süresi</li>
+            <li>Alıcı platformun gerekli onay sayısı</li>
+            <li>Güvenlik veya uyum kontrolleri</li>
+          </ul>
+          <p>OKX TR de yatırma tamamlanma süresinin ağ onay hızı ve gerekli blok onaylarına bağlı olduğunu belirtiyor. (<a href="https://tr.okx.com/en/help/how-long-does-it-take-for-a-deposit-to-be-completed-tr" target="_blank" rel="nofollow noopener">OKX TR yatırma süresi rehberi</a>) Bu nedenle “USDT kesin 5 dakikada gelir” gibi genellemelerden kaçının.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEKRAR GÖNDERMELİ MİYİM -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Tekrar Aynı USDT'yi Göndermeli miyim?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>İlk işlemin durumunu anlamadan ikinci bir transfer yapmayın. İlk işlem yalnızca gecikmişse daha sonra iki ayrı transfer tamamlanabilir. Önce TxID ve blockchain durumunu kontrol edin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTEK EKİBİNE NE ZAMAN -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Destek Ekibine Ne Zaman Yazmalısınız?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Şu durumda destek talebi açmak daha anlamlıdır:</p>
+          <ul>
+            <li>TxID başarılı</li>
+            <li>Doğru ağ kullanılmış</li>
+            <li>Adres doğru</li>
+            <li>Gerekli blok onayları tamam</li>
+            <li>Minimum yatırma şartı sağlanmış</li>
+            <li>Ancak bakiye hâlâ görünmüyor</li>
+          </ul>
+          <p>Bu noktada sorun alıcı platformun yatırma sistemiyle ilgili olabilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HANGİ BİLGİLERİ HAZIRLAMALI -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Destek Ekibine Hangi Bilgileri Hazırlamalısınız?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Genellikle şu bilgiler faydalıdır:</p>
+          <ul>
+            <li>Kripto varlık: USDT</li>
+            <li>Tutar</li>
+            <li>TxID</li>
+            <li>Kullanılan ağ</li>
+            <li>Gönderen adres</li>
+            <li>Alıcı adres</li>
+            <li>İşlem tarihi ve saati</li>
+            <li>Gönderen platform</li>
+            <li>Alıcı platform</li>
+            <li>Ekran görüntüsü</li>
+          </ul>
+          <div class="alert-danger">
+            <strong>Seed phrase veya özel anahtar paylaşmayın.</strong> Gerçek bir borsa destek ekibinin USDT yatırma sorununu çözmek için seed phrase'inize ihtiyacı yoktur.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAHTE KURTARMA UZMANLARI -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Sahte “Kurtarma Uzmanlarına” Dikkat Edin</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>USDT transfer sorunu yaşayan kullanıcılar dolandırıcıların sık hedefidir. Özellikle sosyal medyada şu ifadeleri kullanan kişilere karşı dikkatli olun:</p>
+          <ul>
+            <li>“Blockchain'den paranı geri alırım”</li>
+            <li>“Cüzdanını senkronize et”</li>
+            <li>“Recovery için seed phrase gönder”</li>
+            <li>“Önce vergi veya aktivasyon ücreti öde”</li>
+          </ul>
+          <div class="alert-danger">
+            <strong>Seed phrase veya özel anahtar verirseniz cüzdanınızdaki diğer varlıklar da risk altına girebilir.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIZLI TEŞHİS TABLOSU -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Hızlı Teşhis Tablosu</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="cmp-table">
+            <thead>
+              <tr><th>Gördüğünüz durum</th><th>İlk kontrol</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>TxID yok</td><td>Gönderen platform</td></tr>
+              <tr><td>TxID pending</td><td>Blockchain ağı</td></tr>
+              <tr><td>TxID failed</td><td>Gönderen işlem / blockchain</td></tr>
+              <tr><td>TxID success, bakiye yok</td><td>Ağ, adres, onay, alıcı platform</td></tr>
+              <tr><td>Yanlış ağ</td><td>Recovery ihtimali</td></tr>
+              <tr><td>Yanlış adres</td><td>Alıcının kontrolü / recovery ihtimali</td></tr>
+              <tr><td>Explorer'da bakiye var, cüzdanda yok</td><td>Cüzdan arayüzü / token görünürlüğü</td></tr>
+              <tr><td>Minimum tutarın altında</td><td>Alıcı platform politikası</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 DAKİKALIK KONTROL LİSTESİ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">5 Dakikalık Kontrol Listesi</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>USDT gelmediyse şu bilgileri yan yana açın:</p>
+          <ul>
+            <li>Gönderen çekim geçmişi</li>
+            <li>TxID</li>
+            <li>Blockchain explorer</li>
+            <li>Alıcı yatırma ekranı</li>
+          </ul>
+          <p>Daha sonra şu sorulara cevap verin:</p>
+        </div>
+        <ol class="checklist">
+          <li>TxID var mı?</li>
+          <li>İşlem başarılı mı?</li>
+          <li>Ağ aynı mı?</li>
+          <li>Adres aynı mı?</li>
+          <li>Yeterli blok onayı var mı?</li>
+          <li>Minimum yatırma tutarı uygun mu?</li>
+          <li>Alıcı platformda bakım veya gecikme var mı?</li>
+        </ol>
+        <div class="prose" style="margin-top:18px;">
+          <p>Bu yedi kontrol çoğu transfer sorununu sınıflandırmaya yardımcı olur.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIK YAPILAN HATALAR -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Sık Yapılan Hatalar</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <h3>TxID'ye bakmadan destek ekibine yazmak</h3>
+          <p>Sorunun hangi aşamada olduğunu anlamayı zorlaştırır.</p>
+          <h3>Ağ ile adresi aynı şey sanmak</h3>
+          <p>İkisi ayrı ayrı kontrol edilmelidir.</p>
+          <h3>Blockchain başarılıysa para kesin hesaba geçmiştir sanmak</h3>
+          <p>Alıcı platform ek onay bekleyebilir.</p>
+          <h3>Minimum yatırmayı kontrol etmemek</h3>
+          <p>Blockchain başarılı olsa bile yatırma yansımayabilir.</p>
+          <h3>Aynı transferi tekrar yapmak</h3>
+          <p>İlk işlem sadece gecikmiş olabilir.</p>
+          <h3>Sahte recovery hizmetlerine para göndermek</h3>
+          <p>İkinci bir kayba yol açabilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SSS -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Sık Sorulan Sorular</h2>
+          </div>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>USDT gönderdim neden gelmedi?</summary>
+            <div class="faq-body">İşlem henüz blockchain'e gönderilmemiş, ağ onayı bekliyor, yanlış ağ kullanılmış veya alıcı platform henüz yatırmayı hesaba yansıtmamış olabilir.</div>
+          </details>
+          <details>
+            <summary>TxID varsa para gönderilmiş midir?</summary>
+            <div class="faq-body">TxID işlemin blockchain'e gönderildiğini gösteren önemli bir kayıttır ancak işlemin başarılı olup olmadığını explorer üzerinden ayrıca kontrol etmek gerekir.</div>
+          </details>
+          <details>
+            <summary>TxID successful ama USDT neden yok?</summary>
+            <div class="faq-body">Doğru ağ, adres, blok onayı, minimum yatırma ve alıcı platformun işlem durumunu kontrol edin.</div>
+          </details>
+          <details>
+            <summary>USDT transferi kaç dakika sürer?</summary>
+            <div class="faq-body">Kesin süre yoktur. Blockchain ağı, onay sayısı ve platform işlemleri süreyi etkiler. (<a href="https://tr.okx.com/en/help/how-long-does-it-take-for-a-deposit-to-be-completed-tr" target="_blank" rel="nofollow noopener">OKX TR</a>)</div>
+          </details>
+          <details>
+            <summary>Yanlış ağdan gönderilen USDT kurtarılır mı?</summary>
+            <div class="faq-body">Bazı durumlarda mümkün olabilir ancak garanti değildir. Alıcı platformun teknik desteğine bağlıdır. (<a href="https://tr.okx.com/en/help/what-should-i-do-if-i-deposit-to-the-wrong-address-tr" target="_blank" rel="nofollow noopener">OKX TR</a>)</div>
+          </details>
+          <details>
+            <summary>USDT blockchain'de görünüyor ama cüzdanımda görünmüyor, neden?</summary>
+            <div class="faq-body">Cüzdan doğru ağı veya token'ı göstermiyor olabilir. Explorer'da bakiye görünüyorsa cüzdan arayüzünü kontrol edin.</div>
+          </details>
+          <details>
+            <summary>Minimum yatırma tutarının altında gönderirsem ne olur?</summary>
+            <div class="faq-body">Platforma göre bakiye otomatik yansımayabilir ve kurtarma desteği sınırlı olabilir. (<a href="https://tr.okx.com/en/help/tr-do-i-need-to-pay-fees-for-deposit-and-withdrawal" target="_blank" rel="nofollow noopener">OKX TR</a>)</div>
+          </details>
+          <details>
+            <summary>Destek ekibine seed phrase vermeli miyim?</summary>
+            <div class="faq-body">Hayır. Seed phrase veya özel anahtarınızı hiçbir destek görevlisiyle paylaşmayın.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- İLGİLİ REHBERLER -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">İlgili Rehberler</h2>
+          </div>
+        </div>
+        <div class="quick-links">
+          <a href="/usdt-hangi-agdan-gonderilmeli/">USDT Hangi Ağdan Gönderilmeli?</a>
+          <a href="/yanlis-agdan-usdt-gonderdim/">Yanlış Ağdan USDT Gönderdim</a>
+          <a href="/yanlis-adrese-usdt-gonderdim/">USDT Yanlış Adrese Gönderildi</a>
+          <a href="/usdt-transfer-suresi/">USDT Transfer Süresi</a>
+          <a href="/usdt-transfer-ucretleri/">USDT Transfer Ücreti</a>
+          <a href="/trc20-erc20-farki/">TRC20 ve ERC20 Arasındaki Fark</a>
+          <a href="/kripto-transferi-nasil-takip-edilir/">Kripto Transferi Nasıl Takip Edilir?</a>
+          <a href="/binance-trden-binance-transfer/">Binance TR'den Binance'e Transfer</a>
+          <a href="/binance-transfer-yapamiyorum/">Binance Transfer Yapamıyorum</a>
+          <a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a>
+          <a href="/sorun-cozme/">Sorun Çözme Merkezi</a>
+          <a href="/usdt-transfer/">USDT &amp; Transfer Rehberleri</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SONUÇ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Sonuç</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>USDT transferiniz gelmediyse en önemli şey paniğe kapılmadan işlemin hangi aşamada kaldığını belirlemektir. İlk olarak TxID'yi bulun. TxID yoksa gönderen platformu, TxID varsa blockchain durumunu kontrol edin.</p>
+          <p>Blockchain işlemi başarılıysa daha sonra şunları kontrol edin:</p>
+          <ol>
+            <li>Ağı</li>
+            <li>Adresi</li>
+            <li>Blok onaylarını</li>
+            <li>Minimum yatırma tutarını</li>
+            <li>Alıcı platform durumunu</li>
+          </ol>
+          <p>Bu kontroller doğru olduğu halde bakiye görünmüyorsa resmî alıcı platform desteğine TxID ile başvurun.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KAYNAK VE GÜNCELLEME NOTU -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Kaynak ve Güncelleme Notu</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Bu rehber hazırlanırken OKX TR'nin Ağustos 2026'da güncellenen ağ seçimi, yatırma süresi, adres/tag ve yanlış adres kurtarma rehberleri ile Tether'ın desteklenen blockchain açıklamaları kontrol edilmiştir. Kaynaklar: <a href="https://tr.okx.com/en/help/how-do-i-select-the-correct-network-for-my-crypto-withdrawals-and-deposits-tr" target="_blank" rel="nofollow noopener">OKX TR — ağ seçimi</a>, <a href="https://tr.okx.com/en/help/how-long-does-it-take-for-a-deposit-to-be-completed-tr" target="_blank" rel="nofollow noopener">OKX TR — yatırma süresi</a>, <a href="https://tr.okx.com/en/help/what-should-i-do-if-i-deposit-to-the-wrong-address-tr" target="_blank" rel="nofollow noopener">OKX TR — yanlış adres</a>, <a href="https://tr.okx.com/en/help/tr-do-i-need-to-pay-fees-for-deposit-and-withdrawal" target="_blank" rel="nofollow noopener">OKX TR — ücretler</a>, <a href="https://tr.okx.com/en/help/how-do-i-find-my-deposit-address-and-tag-memos-tr" target="_blank" rel="nofollow noopener">OKX TR — adres/tag</a>, <a href="https://tether.to/en/why-tether/" target="_blank" rel="nofollow noopener">Tether</a>.</p>
+        </div>
+        <span class="last-checked">Son kontrol: Eylül 2026</span>
+        <div class="fine-print" style="margin-top:18px;">
+          <p>Blockchain onay şartları, desteklenen ağlar ve minimum yatırma tutarları değişebilir. İşlem yaparken alıcı platformun güncel yatırma ekranındaki bilgileri esas alın.</p>
+          <p>KriptoAdım'daki içerikler genel bilgilendirme amacı taşır ve yatırım tavsiyesi değildir.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="/" class="logo" style="font-size:18px;">Kripto<span>Adım</span></a>
+          <p class="footer-brand">Türkiye için adım adım kripto rehberleri ve sorun çözme merkezi.</p>
+        </div>
+        <div>
+          <h4>Rehberler</h4>
+          <ul>
+            <li><a href="/borsalar/binance-tr/">Binance TR</a></li>
+            <li><a href="/borsalar/okx-tr/">OKX TR</a></li>
+            <li><a href="/usdt-transfer/">USDT</a></li>
+            <li><a href="/cuzdan/">Cüzdan</a></li>
+            <li><a href="/sorun-cozme/">Sorun Çözme</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kurumsal</h4>
+          <ul>
+            <li><a href="/hakkimizda/">Hakkımızda</a></li>
+            <li><a href="/editorial-policy/">Editoryal Politika</a></li>
+            <li><a href="/affiliate-disclosure/">Ortaklık Açıklaması</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Yasal</h4>
+          <ul>
+            <li><a href="/privacy-policy/">Gizlilik Politikası</a></li>
+            <li><a href="/terms/">Kullanım Koşulları</a></li>
+            <li><a href="/risk-disclosure/">Risk Açıklaması</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 KriptoAdım. Tüm hakları saklıdır. Bu sitedeki bilgiler yatırım tavsiyesi değildir.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('mobileMenuBtn');
+      var nav = document.getElementById('mainNav');
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>
