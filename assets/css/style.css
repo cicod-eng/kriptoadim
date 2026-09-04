@@ -374,3 +374,172 @@ img { max-width: 100%; height: auto; display: block; }
 .prose ul, .prose ol { margin: 0 0 16px 22px; }
 .prose li { margin-bottom: 8px; }
 .prose strong { font-weight: 600; }
+
+/* ===== Sorun Çözme Hub 专属 ===== */
+
+/* 故障卡已配独立图标时，隐藏标题前的感叹号 */
+.problem-card.has-icon h3 a::before { display: none; }
+
+/* 故障卡图标走琥珀色系 */
+.problem-card .card-icon {
+  background: #FEF3C7;
+  color: #B45309;
+}
+
+/* Hero 分类提示条 */
+.hero-cats { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 8px; }
+.hero-cats .cat {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--teal-100);
+  background: rgba(255, 255, 255, .08);
+  border: 1px solid rgba(255, 255, 255, .16);
+  padding: 5px 13px;
+  border-radius: 999px;
+}
+
+/* 卡片内 CTA 链接 */
+.card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--teal-700);
+}
+.card-cta:hover { color: var(--teal-600); }
+.problem-card .card-cta { color: #B45309; }
+.problem-card .card-cta:hover { color: #92400E; }
+
+/* 故障卡内“İlgili içerikler”清单 */
+.related { margin-top: 16px; padding-top: 14px; border-top: 1px dashed #F1E3BB; font-size: 13.5px; }
+.related-title {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: #A16207;
+  margin-bottom: 7px;
+}
+.related ul { list-style: none; margin: 0; }
+.related li { margin-bottom: 5px; padding-left: 15px; position: relative; }
+.related li::before { content: "→"; position: absolute; left: 0; color: #C9910F; font-size: 12px; }
+.related a { color: var(--text-muted); font-weight: 500; }
+.related a:hover { color: var(--teal-700); }
+
+/* 快速检查清单 */
+.checklist {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 30px;
+  box-shadow: var(--shadow-sm);
+}
+.checklist ol {
+  list-style: none;
+  counter-reset: step;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 34px;
+  margin: 0;
+}
+.checklist li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.checklist li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0; top: -1px;
+  width: 26px; height: 26px;
+  border-radius: 8px;
+  background: var(--teal-50);
+  color: var(--teal-700);
+  border: 1px solid var(--teal-100);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Sorun Nerede —— 定位卡 */
+.loc-card ul { list-style: none; margin: 6px 0 0; }
+.loc-card li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 7px;
+}
+.loc-card li::before { content: "✓"; position: absolute; left: 0; color: var(--teal-600); font-weight: 700; }
+
+/* 高亮信息卡（TxID 区块） */
+.info-card {
+  background: var(--teal-50);
+  border: 1px solid var(--teal-100);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+}
+.info-card h3 { font-size: 19px; font-weight: 700; margin-bottom: 10px; }
+.info-card p { color: var(--text-muted); font-size: 15px; margin-bottom: 14px; }
+.info-card ul { list-style: none; margin: 0 0 16px; }
+.info-card li { position: relative; padding-left: 22px; font-size: 15px; margin-bottom: 8px; color: var(--teal-800); }
+.info-card li::before { content: "•"; position: absolute; left: 4px; color: var(--teal-500); font-weight: 700; }
+
+/* FAQ */
+.faq details {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.faq summary {
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-size: 22px; line-height: 1; color: var(--teal-600); transition: transform .18s ease; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq .faq-body { padding: 0 20px 18px; color: var(--text-muted); font-size: 15px; line-height: 1.65; }
+
+/* 警示框 */
+.alert { border-radius: var(--radius); padding: 20px 24px; font-size: 15px; line-height: 1.7; }
+.alert-danger { background: #FEF2F2; border: 1px solid #FECACA; color: #7F1D1D; }
+.alert-danger strong { color: #991B1B; }
+.alert h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+
+/* 支持信息双列 */
+.support-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.support-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 26px; }
+.support-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 12px; }
+.support-card ul { list-style: none; margin: 0; }
+.support-card li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 14.5px;
+  color: var(--text-muted);
+  margin-bottom: 9px;
+}
+.support-card li::before { content: ""; position: absolute; left: 0; top: 9px; width: 6px; height: 6px; border-radius: 50%; background: var(--teal-500); }
+
+/* 页脚说明 */
+.fine-print { font-size: 14px; color: var(--text-muted); max-width: 760px; line-height: 1.7; }
+.fine-print p + p { margin-top: 10px; }
+
+@media (max-width: 720px) {
+  .checklist ol { grid-template-columns: 1fr; }
+  .support-grid { grid-template-columns: 1fr; }
+}
