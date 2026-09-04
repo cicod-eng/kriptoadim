@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kriptoadim.com/sitemap.xml
+Sitemap: https://kriptoadm.com/sitemap.xml

@@ -7,7 +7,7 @@
 | 项 | 值 |
 |---|---|
 | 品牌名 | **KriptoAdım**（Adım 作强调，土耳其语展示名） |
-| 域名 | `kriptoadim.com`（纯 ASCII，无 IDN 兼容问题） |
+| 域名 | `kriptoadm.com`（纯 ASCII，无 IDN 兼容问题） |
 | 语言 | Türkçe (tr-TR) |
 | 定位 | Türkiye için adım adım kripto rehberleri ve sorun çözme merkezi |
 | 部署 | GitHub Pages（干净 URL，`slug/index.html`） |
