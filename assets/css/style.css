@@ -177,8 +177,16 @@ img { max-width: 100%; height: auto; display: block; }
 .card p { color: var(--text-muted); font-size: 14.5px; }
 .card-icon { font-size: 26px; margin-bottom: 12px; display: block; }
 
-/* Sorun Çözme 故障卡 */
-.problem-card { border-left: 4px solid var(--warning); }
+/* Sorun Çözme 故障卡 —— 品牌差异核心，视觉强化 */
+.problem-card {
+  border-left: 4px solid var(--warning);
+  border-top: 1px solid #FDE68A;
+  background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 72%);
+}
+.problem-card h3 a::before {
+  content: "⚠️ ";
+  font-size: 15px;
+}
 
 /* 标签 */
 .tag {
@@ -254,3 +262,75 @@ img { max-width: 100%; height: auto; display: block; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 12px; }
   .hero { padding: 52px 0 48px; }
 }
+
+/* ===== Hub 页（分类 / 专题） ===== */
+.breadcrumb {
+  padding: 16px 0 0;
+  font-size: 13.5px;
+  color: var(--text-muted);
+}
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px; }
+.breadcrumb li { display: flex; align-items: center; }
+.breadcrumb li + li::before { content: "›"; margin: 0 6px; color: #B7BDBA; }
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb a:hover { color: var(--teal-700); }
+
+.page-header {
+  background:
+    radial-gradient(900px 360px at 85% -20%, rgba(20, 184, 166, .22), transparent 60%),
+    var(--teal-900);
+  color: #fff;
+  padding: 40px 0;
+}
+.page-header h1 {
+  font-size: clamp(26px, 3.6vw, 36px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.page-header .lead {
+  margin-top: 12px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, .82);
+  max-width: 720px;
+}
+
+.hub-group { margin-bottom: 34px; }
+.hub-group:last-child { margin-bottom: 0; }
+.hub-group-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.hub-group-title .num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: var(--teal-700);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  flex: none;
+}
+
+/* ===== 政策 / 法律页 ===== */
+.prose { max-width: 760px; }
+.prose .updated {
+  display: inline-block;
+  font-size: 13.5px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+.prose h2 { font-size: 20px; font-weight: 700; margin: 30px 0 12px; }
+.prose p { margin-bottom: 14px; }
+.prose ul, .prose ol { margin: 0 0 16px 22px; }
+.prose li { margin-bottom: 8px; }
+.prose strong { font-weight: 600; }
