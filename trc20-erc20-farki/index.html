@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TRC20 ve ERC20 Farkı: USDT Hangi Ağdan Gönderilmeli?</title>
+  <meta name="description" content="TRC20 ve ERC20 arasındaki fark nedir? USDT transferinde hangi ağ seçilir? Ücret, hız, adres formatı ve destek karşılaştırması.">
+  <meta name="author" content="KriptoAdım">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://kriptoadm.com/trc20-erc20-farki/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="TRC20 ve ERC20 Farkı: USDT Hangi Ağdan Gönderilmeli?">
+  <meta property="og:description" content="TRC20 ve ERC20 arasındaki fark nedir? USDT transferinde hangi ağ seçilir? Ücret, hız, adres formatı ve destek karşılaştırması.">
+  <meta property="og:url" content="https://kriptoadm.com/trc20-erc20-farki/">
+  <meta property="og:site_name" content="KriptoAdım">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TRC20 ve ERC20 Farkı: USDT Hangi Ağdan Gönderilmeli?">
+  <meta name="twitter:description" content="TRC20 ve ERC20 arasındaki fark nedir? USDT transferinde hangi ağ seçilir? Ücret, hız, adres formatı ve destek karşılaştırması.">
+
+  <!-- Schema.org: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://kriptoadm.com/"},
+      {"@type": "ListItem", "position": 2, "name": "USDT & Transfer", "item": "https://kriptoadm.com/usdt-transfer/"},
+      {"@type": "ListItem", "position": 3, "name": "TRC20 ve ERC20 Farkı", "item": "https://kriptoadm.com/trc20-erc20-farki/"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "TRC20 ve ERC20 Farkı: USDT Hangi Ağdan Gönderilmeli?",
+    "description": "TRC20 ve ERC20 arasındaki fark nedir? USDT transferinde hangi ağ seçilir? Ücret, hız, adres formatı ve destek karşılaştırması.",
+    "inLanguage": "tr-TR",
+    "author": {"@type": "Organization", "name": "KriptoAdım"},
+    "publisher": {"@type": "Organization", "name": "KriptoAdım"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kriptoadm.com/trc20-erc20-farki/"},
+    "datePublished": "2026-09-05",
+    "dateModified": "2026-09-05"
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "TRC20 ile ERC20 aynı mı?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. TRC20 TRON, ERC20 ise Ethereum ağı üzerinde çalışan token standardıdır."}},
+      {"@type": "Question", "name": "USDT'de TRC20 mi ERC20 mi seçmeliyim?", "acceptedAnswer": {"@type": "Answer", "text": "Alıcı tarafın desteklediği ağı seçin. İki taraf da destekliyorsa ücret ve hız açısından TRC20 çoğu zaman daha düşük maliyetli bir seçenektir."}},
+      {"@type": "Question", "name": "TRC20 adresi nasıl başlar?", "acceptedAnswer": {"@type": "Answer", "text": "TRON üzerindeki adresler genellikle 'T' harfiyle, Ethereum (ERC20) adresleri ise '0x' ile başlar."}},
+      {"@type": "Question", "name": "BEP20 nedir, TRC20 ile karışır mı?", "acceptedAnswer": {"@type": "Answer", "text": "BEP20, BNB Smart Chain üzerindeki standarttır. Üçü de aynı USDT'yi taşıyabilir ancak ağlar farklıdır; transferde eşleşmeleri gerekir."}}
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="KriptoAdım — Ana Sayfa">
+        <svg width="34" height="34" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="11" fill="#0F766E"/><path d="M11 28h6v-6h6v-6h7" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="logo-text">Kripto<span>Adım</span></div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" role="navigation" aria-label="Ana Menü">
+        <a href="/baslangic/">Başlangıç</a>
+        <a href="/borsalar/">Borsalar</a>
+        <a href="/usdt-transfer/" class="active">USDT &amp; Transfer</a>
+        <a href="/cuzdan/">Cüzdan</a>
+        <a href="/guvenlik/">Güvenlik</a>
+        <a href="/sorun-cozme/">Sorun Çözme</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <ol>
+          <li><a href="/">Ana Sayfa</a></li>
+          <li><a href="/usdt-transfer/">USDT &amp; Transfer</a></li>
+          <li>TRC20 ve ERC20 Farkı</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Page header -->
+    <div class="page-header">
+      <div class="container">
+        <h1>TRC20 ve ERC20 Farkı: USDT Hangi Ağdan Gönderilmeli?</h1>
+        <p class="lead">TRC20 ve ERC20 aynı USDT'yi taşıyan iki farklı ağdır. Seçimi belirleyen şey ücret değil, alıcı tarafın hangi ağı desteklediğidir.</p>
+      </div>
+    </div>
+
+    <!-- GİRİŞ -->
+    <section class="section">
+      <div class="container">
+        <div class="prose">
+          <p>USDT tek bir ağda yaşamaz; aynı USDT <strong>TRON</strong> ve <strong>Ethereum</strong> gibi farklı blokzincirlerde ayrı ayrı bulunur. İşte bu yüzden transfer ekranında karşınıza "TRC20" ve "ERC20" gibi seçenekler çıkar. İkisi de USDT'dir, ama ağları ve kuralları farklıdır.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KISACA TANIM -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Kısaca: TRC20 ve ERC20 Nedir?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <ul>
+            <li><strong>TRC20</strong> — TRON ağı üzerinde çalışan token standardıdır. USDT transferlerinde düşük maliyetiyle öne çıkar.</li>
+            <li><strong>ERC20</strong> — Ethereum ağı üzerindeki token standardıdır. USDT'nin en eski ve en yaygın ağlarından biridir.</li>
+          </ul>
+          <p>USDT'nin kendisinin ne olduğunu ve neden birden fazla ağda bulunduğunu merak ediyorsanız: <a href="/usdt-nedir/">USDT Nedir?</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KARŞILAŞTIRMA TABLOSU -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">TRC20 ve ERC20 Karşılaştırması</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="cmp-table">
+            <thead>
+              <tr>
+                <th>Özellik</th>
+                <th>TRC20</th>
+                <th>ERC20</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Ağ</td><td>TRON</td><td>Ethereum</td></tr>
+              <tr><td>Adres başlangıcı</td><td>Genellikle "T"</td><td>"0x"</td></tr>
+              <tr><td>Transfer ücreti</td><td>Genellikle düşük</td><td>Genellikle daha yüksek</td></tr>
+              <tr><td>Onay süresi</td><td>Genellikle hızlı</td><td>Ağ yoğunluğuna bağlı</td></tr>
+              <tr><td>Destek</td><td>Binance TR, OKX TR ve birçok borsa</td><td>Çoğu borsa ve DeFi</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="prose" style="margin-top:18px;">
+          <p>Ücret ve süreler ağ yoğunluğuna göre değişebildiği için yukarıdaki "genellikle" ifadeleri kesin söz değildir. İşlem öncesi platformun gösterdiği güncel ücreti kontrol edin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HANGİSİ SEÇİLMELİ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Hangisini Seçmeliyim?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Kural tektir: <strong>alıcı tarafın desteklediği ağı seçin</strong>. Alıcı yalnızca TRC20 destekliyorsa siz ERC20 seçemezsiniz; iki ağ birbiriyle konuşmaz ve işlem sorun çıkarır. İki taraf da her iki ağı destekliyorsa, düşük maliyet ve hız açısından TRC20 çoğu zaman daha pratik bir tercihtir.</p>
+          <p>Ağ seçimiyle ilgili tam rehber burada: <a href="/usdt-hangi-agdan-gonderilmeli/">USDT Hangi Ağdan Gönderilmeli?</a> Yanlış ağdan gönderim yaptıysanız: <a href="/yanlis-agdan-usdt-gonderdim/">Yanlış Ağdan USDT Gönderdim</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEP20 DE VAR -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">BEP20 de Var</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Karşınıza çıkabilecek üçüncü bir standart da <strong>BEP20</strong>'dir; BNB Smart Chain üzerinde çalışır. Adresleri genellikle "0x" ile başlar ve bu yüzden ERC20 ile karıştırılabilir, ancak ağları farklıdır. Üçü de aynı USDT'yi taşıyabilir; önemli olan gönderen ve alıcının aynı ağı seçmesidir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KISA CEVAPLAR -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Kısa Cevaplar</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p><strong>TRC20 ile ERC20 aynı mı?</strong> Hayır. TRC20 TRON, ERC20 ise Ethereum ağı üzerinde çalışan token standardıdır.</p>
+          <p><strong>USDT'de TRC20 mi ERC20 mi seçmeliyim?</strong> Alıcı tarafın desteklediği ağı seçin. İki taraf da destekliyorsa ücret ve hız açısından TRC20 çoğu zaman daha düşük maliyetli bir seçenektir.</p>
+          <p><strong>TRC20 adresi nasıl başlar?</strong> TRON üzerindeki adresler genellikle "T" harfiyle, Ethereum (ERC20) adresleri ise "0x" ile başlar.</p>
+          <p><strong>BEP20 nedir, TRC20 ile karışır mı?</strong> BEP20, BNB Smart Chain üzerindeki standarttır. Üçü de aynı USDT'yi taşıyabilir ancak ağlar farklıdır; transferde eşleşmeleri gerekir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GÜNCELLİK NOTU -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Güncellik Notu</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Ağ ücretleri, onay süreleri ve platformların desteklediği ağlar zaman içinde değişebilir. İşlem yapmadan önce kullandığınız platformdaki güncel ağ listesini kontrol edin.</p>
+        </div>
+        <span class="last-checked">Son kontrol: Eylül 2026</span>
+        <div class="fine-print" style="margin-top:18px;">
+          <p>KriptoAdım'daki içerikler genel bilgilendirme amacı taşır ve yatırım tavsiyesi değildir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- USDT GÖNDERME CTA -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="info-card">
+          <h3>Göndermeye hazır mısınız?</h3>
+          <p>Adres, ağ ve ücret adımlarını tek tek anlatan transfer rehberine geçin.</p>
+          <p style="margin-top:14px;"><a href="/usdt-nasil-gonderilir/" class="btn btn-primary">USDT Nasıl Gönderilir? →</a></p>
+          <p class="fine-print">Ağ seçimini onaylamadan önce kontrol edin.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="/" class="logo" style="font-size:18px;">Kripto<span>Adım</span></a>
+          <p class="footer-brand">Türkiye için adım adım kripto rehberleri ve sorun çözme merkezi.</p>
+        </div>
+        <div>
+          <h4>Rehberler</h4>
+          <ul>
+            <li><a href="/borsalar/binance-tr/">Binance TR</a></li>
+            <li><a href="/borsalar/okx-tr/">OKX TR</a></li>
+            <li><a href="/usdt-transfer/">USDT</a></li>
+            <li><a href="/cuzdan/">Cüzdan</a></li>
+            <li><a href="/sorun-cozme/">Sorun Çözme</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kurumsal</h4>
+          <ul>
+            <li><a href="/hakkimizda/">Hakkımızda</a></li>
+            <li><a href="/editorial-policy/">Editoryal Politika</a></li>
+            <li><a href="/affiliate-disclosure/">Ortaklık Açıklaması</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Yasal</h4>
+          <ul>
+            <li><a href="/privacy-policy/">Gizlilik Politikası</a></li>
+            <li><a href="/terms/">Kullanım Koşulları</a></li>
+            <li><a href="/risk-disclosure/">Risk Açıklaması</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 KriptoAdım. Tüm hakları saklıdır. Bu sitedeki bilgiler yatırım tavsiyesi değildir.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('mobileMenuBtn');
+      var nav = document.getElementById('mainNav');
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>
