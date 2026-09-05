@@ -23,14 +23,37 @@
   <meta name="twitter:title" content="Kripto Cüzdan Rehberleri: Adres, Seed Phrase | KriptoAdım">
   <meta name="twitter:description" content="Kripto cüzdanı nedir, cüzdan adresi nedir, seed phrase güvenliği, MetaMask ve Trust Wallet kullanımı hakkında adım adım rehberler.">
 
-  <!-- Schema.org -->
+  <!-- Schema.org: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://kriptoadm.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Cüzdan", "item": "https://kriptoadm.com/cuzdan/"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: CollectionPage + ItemList -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Kripto Cüzdan Rehberleri",
     "url": "https://kriptoadm.com/cuzdan/",
-    "inLanguage": "tr-TR"
+    "inLanguage": "tr-TR",
+    "description": "Kripto cüzdanı nedir, cüzdan adresi nedir, seed phrase nasıl korunur? MetaMask ve Trust Wallet kurulum rehberleri.",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Kripto cüzdanı nedir?", "url": "https://kriptoadm.com/kripto-cuzdani-nedir/"},
+        {"@type": "ListItem", "position": 2, "name": "Cüzdan adresi nedir?", "url": "https://kriptoadm.com/cuzdan-adresi-nedir/"},
+        {"@type": "ListItem", "position": 3, "name": "Seed phrase nedir?", "url": "https://kriptoadm.com/seed-phrase-nedir/"},
+        {"@type": "ListItem", "position": 4, "name": "MetaMask nasıl kullanılır?", "url": "https://kriptoadm.com/metamask-nasil-kullanilir/"},
+        {"@type": "ListItem", "position": 5, "name": "Trust Wallet nasıl kullanılır?", "url": "https://kriptoadm.com/trust-wallet-nasil-kullanilir/"}
+      ]
+    }
   }
   </script>
 
@@ -80,20 +103,163 @@
       </div>
     </nav>
 
-    <!-- Page header -->
+    <!-- Hero -->
     <div class="page-header">
       <div class="container">
         <h1>Kripto Cüzdan Rehberleri</h1>
-        <p class="lead">Cüzdan, kripto varlıklarınızın anahtarıdır. Cüzdan, adres ve seed phrase kavramlarını öğrenin; MetaMask ve Trust Wallet'ı güvenle kullanın.</p>
+        <p class="lead">Cüzdan, kripto varlıklarınızın anahtarıdır. Cüzdan, adres ve seed phrase kavramlarını öğrenin; MetaMask ve Trust Wallet'ı güvenle kurun.</p>
+        <div class="hero-buttons">
+          <a href="#kavramlar" class="btn btn-primary">Kavramları Öğren</a>
+          <a href="#kurulum" class="btn btn-ghost">Cüzdan Kur</a>
+        </div>
+        <div class="hero-cats">
+          <span class="cat">Cüzdan nedir</span>
+          <span class="cat">Adres</span>
+          <span class="cat">Seed phrase</span>
+          <span class="cat">MetaMask</span>
+          <span class="cat">Trust Wallet</span>
+          <span class="cat">Özel anahtar</span>
+        </div>
       </div>
     </div>
 
-    <!-- Articles -->
+    <!-- KAVRAMLAR -->
+    <section class="section" id="kavramlar">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Önce Kavramlar</h2>
+            <p class="section-lead">Cüzdan kurmadan önce üç temel kavramı anlamak, yapılan hataların çoğunu önler.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card">
+            <h3><a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a></h3>
+            <p>Cüzdan kriptoyu değil özel anahtarı saklar. Borsa ile kendi cüzdanınız arasındaki farkı öğrenin.</p>
+            <a href="/kripto-cuzdani-nedir/" class="card-cta">Cüzdan Nedir? →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/cuzdan-adresi-nedir/">Cüzdan Adresi Nedir?</a></li>
+                <li><a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3><a href="/cuzdan-adresi-nedir/">Cüzdan Adresi Nedir?</a></h3>
+            <p>Adres, size kripto göndermek için paylaştığınız açık bilgidir. TRC20 ve ERC20 format farkını görün.</p>
+            <a href="/cuzdan-adresi-nedir/" class="card-cta">Adres Nedir? →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a></li>
+                <li><a href="/trc20-erc20-farki/">TRC20 ve ERC20 Farkı</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3><a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a></h3>
+            <p>Seed phrase gören herkes cüzdanı kontrol edebilir. Neden asla paylaşılmaması gerektiğini öğrenin.</p>
+            <a href="/seed-phrase-nedir/" class="card-cta">Seed Phrase Nedir? →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a></li>
+                <li><a href="/guvenlik/">Güvenlik Rehberleri</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KURULUM -->
+    <section class="section section-alt" id="kurulum">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Cüzdan Kurulumu</h2>
+            <p class="section-lead">İki yaygın cüzdanın kurulum ve kullanım adımlarını izleyin.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3><a href="/metamask-nasil-kullanilir/">MetaMask Nasıl Kullanılır?</a></h3>
+            <p>Tarayıcı cüzdanı kurulumu, seed phrase yedekleme ve USDT gönderme adımları.</p>
+            <a href="/metamask-nasil-kullanilir/" class="card-cta">MetaMask Rehberi →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a></li>
+                <li><a href="/cuzdan-adresi-nedir/">Cüzdan Adresi Nedir?</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3><a href="/trust-wallet-nasil-kullanilir/">Trust Wallet Nasıl Kullanılır?</a></h3>
+            <p>Mobil cüzdan kurulumu, seed phrase yedekleme ve kripto gönderme adımları.</p>
+            <a href="/trust-wallet-nasil-kullanilir/" class="card-cta">Trust Wallet Rehberi →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a></li>
+                <li><a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OKUMA SIRASI -->
     <section class="section">
       <div class="container">
-        <div class="card">
-          <h3>Rehberler yakında</h3>
-          <p>Cüzdan, adres ve seed phrase kavramlarını adım adım anlatan rehberler yakında burada olacak.</p>
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Önerilen Okuma Sırası</h2>
+          </div>
+        </div>
+        <ol class="steps">
+          <li><strong>Kripto cüzdanı nedir?</strong> Borsa ile kendi cüzdanınızın farkını anlayın.</li>
+          <li><strong>Cüzdan adresi nedir?</strong> Adres ve özel anahtar ilişkisini öğrenin.</li>
+          <li><strong>Seed phrase nedir?</strong> Güvenliğin kalbi olan bu kavramı öğrenin.</li>
+          <li><strong>Bir cüzdan kurun.</strong> MetaMask veya Trust Wallet ile başlayın.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- İLGİLİ REHBERLER -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">İlgili Rehberler</h2>
+          </div>
+        </div>
+        <div class="quick-links">
+          <a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a>
+          <a href="/cuzdan-adresi-nedir/">Cüzdan Adresi Nedir?</a>
+          <a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a>
+          <a href="/metamask-nasil-kullanilir/">MetaMask Nasıl Kullanılır?</a>
+          <a href="/trust-wallet-nasil-kullanilir/">Trust Wallet Nasıl Kullanılır?</a>
+          <a href="/trc20-erc20-farki/">TRC20 ve ERC20 Farkı</a>
+          <a href="/yanlis-adrese-usdt-gonderdim/">Yanlış Adrese USDT Gönderdim</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GÜVENLİK UYARISI -->
+    <section class="section">
+      <div class="container">
+        <div class="alert alert-danger">
+          <h3>Güvenlik Uyarısı</h3>
+          <p>Seed phrase veya özel anahtarınızı hiçbir kişi, site veya uygulamayla paylaşmayın. Seed phrase'i isteyen hiçbir destek ekibi gerçek değildir.</p>
+          <p>KriptoAdım'daki içerikler genel bilgilendirme amacı taşır ve yatırım tavsiyesi değildir.</p>
         </div>
       </div>
     </section>

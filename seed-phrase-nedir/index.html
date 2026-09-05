@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Seed Phrase Nedir? Neden Kimseyle Paylaşılmamalı?</title>
+  <meta name="description" content="Seed phrase nedir, ne işe yarar? 12 veya 24 kelimelik kurtarma ifadesi neden cüzdanınızın anahtarıdır, nasıl güvenle saklanır ve kaybedilirse ne olur?">
+  <meta name="author" content="KriptoAdım">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://kriptoadm.com/seed-phrase-nedir/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Seed Phrase Nedir? Neden Kimseyle Paylaşılmamalı?">
+  <meta property="og:description" content="Seed phrase nedir, ne işe yarar? 12 veya 24 kelimelik kurtarma ifadesi neden cüzdanınızın anahtarıdır, nasıl güvenle saklanır ve kaybedilirse ne olur?">
+  <meta property="og:url" content="https://kriptoadm.com/seed-phrase-nedir/">
+  <meta property="og:site_name" content="KriptoAdım">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Seed Phrase Nedir? Neden Kimseyle Paylaşılmamalı?">
+  <meta name="twitter:description" content="Seed phrase nedir, ne işe yarar? 12 veya 24 kelimelik kurtarma ifadesi neden cüzdanınızın anahtarıdır, nasıl güvenle saklanır ve kaybedilirse ne olur?">
+
+  <!-- Schema.org: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://kriptoadm.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Cüzdan", "item": "https://kriptoadm.com/cuzdan/"},
+      {"@type": "ListItem", "position": 3, "name": "Seed Phrase Nedir?", "item": "https://kriptoadm.com/seed-phrase-nedir/"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Seed Phrase Nedir? Neden Kimseyle Paylaşılmamalı?",
+    "description": "Seed phrase nedir, ne işe yarar? 12 veya 24 kelimelik kurtarma ifadesi neden cüzdanınızın anahtarıdır, nasıl güvenle saklanır ve kaybedilirse ne olur?",
+    "inLanguage": "tr-TR",
+    "author": {"@type": "Organization", "name": "KriptoAdım"},
+    "publisher": {"@type": "Organization", "name": "KriptoAdım"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kriptoadm.com/seed-phrase-nedir/"},
+    "datePublished": "2026-09-05",
+    "dateModified": "2026-09-05"
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Seed phrase nedir?", "acceptedAnswer": {"@type": "Answer", "text": "Seed phrase, cüzdanınızı kurtarmak için kullanılan 12 veya 24 kelimelik gizli ifadedir. Özel anahtarlarınızın yedeğidir."}},
+      {"@type": "Question", "name": "Seed phrase kaybolursa ne olur?", "acceptedAnswer": {"@type": "Answer", "text": "Seed phrase kaybolursa cüzdana erişim kalıcı olarak kaybedilir. Merkezi bir kurtarma yolu yoktur."}},
+      {"@type": "Question", "name": "Seed phrase nerede saklanmalıdır?", "acceptedAnswer": {"@type": "Answer", "text": "Çevrimdışı ve güvenli bir fiziksel ortamda saklanmalıdır. Ekran görüntüsü, bulut veya e-posta gibi çevrimiçi yerlere yazılmamalıdır."}},
+      {"@type": "Question", "name": "Seed phrase'i telefonda not etmek güvenli midir?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Ekran görüntüsü almak veya buluta kaydetmek seed phrase'i sızdırma riskini artırır."}},
+      {"@type": "Question", "name": "Destek ekibi seed phrase ister mi?", "acceptedAnswer": {"@type": "Answer", "text": "Hayır. Hiçbir meşru destek ekibi seed phrase veya özel anahtar istemez. Bunu isteyen kişi dolandırıcıdır."}}
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="KriptoAdım — Ana Sayfa">
+        <svg width="34" height="34" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="11" fill="#0F766E"/><path d="M11 28h6v-6h6v-6h7" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="logo-text">Kripto<span>Adım</span></div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" role="navigation" aria-label="Ana Menü">
+        <a href="/baslangic/">Başlangıç</a>
+        <a href="/borsalar/">Borsalar</a>
+        <a href="/usdt-transfer/">USDT &amp; Transfer</a>
+        <a href="/cuzdan/" class="active">Cüzdan</a>
+        <a href="/guvenlik/">Güvenlik</a>
+        <a href="/sorun-cozme/">Sorun Çözme</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <ol>
+          <li><a href="/">Ana Sayfa</a></li>
+          <li><a href="/cuzdan/">Cüzdan</a></li>
+          <li>Seed Phrase Nedir?</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Page header -->
+    <div class="page-header">
+      <div class="container">
+        <h1>Seed Phrase Nedir? Neden Kimseyle Paylaşılmamalı?</h1>
+        <p class="lead">Kısa cevap: Seed phrase, cüzdanınızın kurtarma anahtarıdır. Bu 12 veya 24 kelimeyi gören herkes cüzdanınızı ve içindeki varlıkları kontrol edebilir.</p>
+      </div>
+    </div>
+
+    <!-- GİRİŞ -->
+    <section class="section">
+      <div class="container">
+        <div class="prose">
+          <p>Kendi kripto cüzdanınızı kurarken size <strong>12 veya 24 kelimelik bir liste</strong> verilir. Bu listeye seed phrase (kurtarma ifadesi) denir ve cüzdanınızın en kritik bilgisidir. Kriptoda "cüzdanımı kaybettim ama kelimeler duruyor" demek "cüzdanım güvende" demektir; tersi de geçerlidir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEDİR -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Seed Phrase Nedir?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Seed phrase, cüzdanınızdaki tüm özel anahtarların insan tarafından okunabilir bir yedeğidir. Belirli bir kelime listesinden seçilen kelimelerden oluşur. Aynı seed phrase, aynı cüzdanı — ve dolayısıyla aynı varlıkları — her cihazda yeniden üretir.</p>
+          <p>Cüzdan ve anahtar ilişkisinin temelini bilmiyorsanız önce şu rehbere bakın: <a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEDEN ÖNEMLİ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Neden Bu Kadar Önemli?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <ul>
+            <li>Telefonunuz bozulursa seed phrase ile cüzdanı yeni cihazda geri yükleyebilirsiniz.</li>
+            <li>Seed phrase'i gören biri, sizin cihazınıza erişmeden de varlıkları alabilir.</li>
+            <li>Seed phrase kaybolursa geri kurtarma yolu yoktur; "şifremi unuttum" gibi bir sıfırlama bulunmaz.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASLA YAPMAYIN -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Asla Yapmamanız Gerekenler</h2>
+          </div>
+        </div>
+        <div class="alert alert-danger">
+          <ul>
+            <li>Seed phrase'i ekran görüntüsü olarak almayın.</li>
+            <li>Bulut, e-posta, mesajlaşma uygulaması veya not defteri uygulamasına yazmayın.</li>
+            <li>"Yardım edeceğiz" diyen birine seed phrase'i vermeyin.</li>
+            <li>Seed phrase isteyen bir web sitesine veya form'a girmeyin.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- NASIL SAKLANIR -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Nasıl Güvenle Saklanır?</h2>
+          </div>
+        </div>
+        <ul class="check-list">
+          <li>Kelimeleri kâğıda yazın ve kuru, güvenli bir yerde saklayın</li>
+          <li>Gerekiyorsa birden fazla fiziksel kopya tutun</li>
+          <li>Kopyaları tek bir noktada değil, farklı güvenli yerlerde bulundurun</li>
+          <li>Seed phrase'i hiçbir zaman çevrimiçi bir ortama girmeyin</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- KAYBEDERSENİZ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Kaybederseniz veya Çalınırsa Ne Olur?</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Kayıp ve çalınma senaryoları farklı sonuçlar doğurur:</p>
+          <ul>
+            <li><strong>Kayıp:</strong> Cüzdana erişim kalıcı olarak kaybolur; varlıklar blokzincirde durur ama onlara erişemezsiniz.</li>
+            <li><strong>Çalındı:</strong> Varlıkları hızla güvenli bir cüzdana taşımak gerekebilir; ancak bu da seed phrase güvenliği sağlanmadan yapılmamalıdır.</li>
+          </ul>
+          <p>Dolandırıcılık ve sahte destek konusunda daha fazlası için: <a href="/guvenlik/">Güvenlik Rehberleri</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KISA CEVAPLAR -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Kısa Cevaplar</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p><strong>Seed phrase nedir?</strong> Cüzdanınızı kurtarmak için kullanılan 12 veya 24 kelimelik gizli ifadedir. Özel anahtarlarınızın yedeğidir.</p>
+          <p><strong>Seed phrase kaybolursa ne olur?</strong> Cüzdana erişim kalıcı olarak kaybedilir. Merkezi bir kurtarma yolu yoktur.</p>
+          <p><strong>Seed phrase nerede saklanmalıdır?</strong> Çevrimdışı ve güvenli bir fiziksel ortamda saklanmalıdır. Ekran görüntüsü, bulut veya e-posta gibi çevrimiçi yerlere yazılmamalıdır.</p>
+          <p><strong>Seed phrase'i telefonda not etmek güvenli midir?</strong> Hayır. Ekran görüntüsü almak veya buluta kaydetmek seed phrase'i sızdırma riskini artırır.</p>
+          <p><strong>Destek ekibi seed phrase ister mi?</strong> Hayır. Hiçbir meşru destek ekibi seed phrase veya özel anahtar istemez. Bunu isteyen kişi dolandırıcıdır.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GÜNCELLİK NOTU -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Güncellik Notu</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Seed phrase standardı ve cüzdan yazılımlarının yedekleme ekranları zaman içinde değişebilir. Kendi cüzdanınızı kurarken kullandığınız yazılımın resmî belgelerini ve <a href="https://ethereum.org/wallets/" target="_blank" rel="nofollow noopener">güncel cüzdan rehberlerini</a> esas alın.</p>
+        </div>
+        <span class="last-checked">Son kontrol: Eylül 2026</span>
+        <div class="fine-print" style="margin-top:18px;">
+          <p>KriptoAdım'daki içerikler genel bilgilendirme amacı taşır ve yatırım tavsiyesi değildir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="info-card">
+          <h3>Cüzdan kurmadan önce seed phrase'i anlayın</h3>
+          <p>Seed phrase kavramını öğrendikten sonra güvenli bir yazılım cüzdanı kurmaya geçebilirsiniz.</p>
+          <p style="margin-top:14px;"><a href="/cuzdan/" class="btn btn-primary">Cüzdan Rehberleri →</a></p>
+          <p class="fine-print">Seed phrase yalnızca size aittir; kimseyle paylaşmayın.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="/" class="logo" style="font-size:18px;">Kripto<span>Adım</span></a>
+          <p class="footer-brand">Türkiye için adım adım kripto rehberleri ve sorun çözme merkezi.</p>
+        </div>
+        <div>
+          <h4>Rehberler</h4>
+          <ul>
+            <li><a href="/borsalar/binance-tr/">Binance TR</a></li>
+            <li><a href="/borsalar/okx-tr/">OKX TR</a></li>
+            <li><a href="/usdt-transfer/">USDT</a></li>
+            <li><a href="/cuzdan/">Cüzdan</a></li>
+            <li><a href="/sorun-cozme/">Sorun Çözme</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kurumsal</h4>
+          <ul>
+            <li><a href="/hakkimizda/">Hakkımızda</a></li>
+            <li><a href="/editorial-policy/">Editoryal Politika</a></li>
+            <li><a href="/affiliate-disclosure/">Ortaklık Açıklaması</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Yasal</h4>
+          <ul>
+            <li><a href="/privacy-policy/">Gizlilik Politikası</a></li>
+            <li><a href="/terms/">Kullanım Koşulları</a></li>
+            <li><a href="/risk-disclosure/">Risk Açıklaması</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 KriptoAdım. Tüm hakları saklıdır. Bu sitedeki bilgiler yatırım tavsiyesi değildir.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('mobileMenuBtn');
+      var nav = document.getElementById('mainNav');
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>
