@@ -23,14 +23,35 @@
   <meta name="twitter:title" content="Kripto Güvenlik Rehberleri: Dolandırıcılıktan Korunma | KriptoAdım">
   <meta name="twitter:description" content="Kripto dolandırıcılığı, sahte destek, phishing ve seed phrase güvenliği. Kripto varlıklarınızı korumak için Türkiye'ye özel güvenlik rehberleri.">
 
-  <!-- Schema.org -->
+  <!-- Schema.org: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://kriptoadm.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Güvenlik", "item": "https://kriptoadm.com/guvenlik/"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: CollectionPage + ItemList -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Kripto Güvenlik Rehberleri",
     "url": "https://kriptoadm.com/guvenlik/",
-    "inLanguage": "tr-TR"
+    "inLanguage": "tr-TR",
+    "description": "Sahte destek, phishing ve hesap güvenliği hakkında Türkiye'ye özel kripto güvenlik rehberleri.",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Sahte destek dolandırıcılığı", "url": "https://kriptoadm.com/sahte-destek/"},
+        {"@type": "ListItem", "position": 2, "name": "Phishing (oltalama)", "url": "https://kriptoadm.com/phishing/"},
+        {"@type": "ListItem", "position": 3, "name": "Hesap güvenliği", "url": "https://kriptoadm.com/hesap-guvenligi/"}
+      ]
+    }
   }
   </script>
 
@@ -80,20 +101,148 @@
       </div>
     </nav>
 
-    <!-- Page header -->
+    <!-- Hero -->
     <div class="page-header">
       <div class="container">
         <h1>Kripto Güvenlik Rehberleri</h1>
         <p class="lead">Kriptoda en büyük risk fiyat değil, dolandırıcılıktır. Yaygın tuzakları tanıyın, seed phrase'inizi koruyun ve hesabınızı güvene alın.</p>
+        <div class="hero-buttons">
+          <a href="#tehditler" class="btn btn-primary">Tehditleri Tanı</a>
+          <a href="#guclendirme" class="btn btn-ghost">Hesabını Güçlendir</a>
+        </div>
+        <div class="hero-cats">
+          <span class="cat">Sahte destek</span>
+          <span class="cat">Phishing</span>
+          <span class="cat">Oltalama</span>
+          <span class="cat">2FA</span>
+          <span class="cat">Seed phrase</span>
+          <span class="cat">Hesap güvenliği</span>
+        </div>
       </div>
     </div>
 
-    <!-- Articles -->
+    <!-- TEHDİTLER -->
+    <section class="section" id="tehditler">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Tehditleri Tanıyın</h2>
+            <p class="section-lead">Dolandırıcıların en sık kullandığı iki yöntemi tanımak, korunmanın ilk adımıdır.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3><a href="/sahte-destek/">Sahte Destek Dolandırıcılığı</a></h3>
+            <p>Resmi destek ekibini taklit eden dolandırıcılar, seed phrase veya şifre ister. Kırmızı bayrakları öğrenin.</p>
+            <a href="/sahte-destek/" class="card-cta">Sahte Destek Rehberi →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/phishing/">Phishing (Oltalama)</a></li>
+                <li><a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3><a href="/phishing/">Phishing (Oltalama)</a></h3>
+            <p>Gerçeğiyle aynı görünen sahte siteler bilgilerinizi çalar. Sahte siteyi nasıl anlayacağınızı görün.</p>
+            <a href="/phishing/" class="card-cta">Phishing Rehberi →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/sahte-destek/">Sahte Destek</a></li>
+                <li><a href="/hesap-guvenligi/">Hesap Güvenliği</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GÜÇLENDİRME -->
+    <section class="section section-alt" id="guclendirme">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Hesabınızı Güçlendirin</h2>
+            <p class="section-lead">Tehditleri tanıdıktan sonra hesabınızı ve cüzdanınızı güvene alın.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3><a href="/hesap-guvenligi/">Hesap Güvenliği: 2FA ve Kontrol Listesi</a></h3>
+            <p>2FA kurulumu, güçlü parola, adres beyaz listesi ve cihaz güvenliği adımları.</p>
+            <a href="/hesap-guvenligi/" class="card-cta">Hesap Güvenliği Rehberi →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/phishing/">Phishing (Oltalama)</a></li>
+                <li><a href="/sahte-destek/">Sahte Destek</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3><a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a></h3>
+            <p>Seed phrase gören herkes cüzdanı kontrol edebilir. Neden asla paylaşılmaması gerektiğini öğrenin.</p>
+            <a href="/seed-phrase-nedir/" class="card-cta">Seed Phrase Rehberi →</a>
+            <div class="related">
+              <span class="related-title">İlgili rehberler</span>
+              <ul>
+                <li><a href="/cuzdan/">Cüzdan Rehberleri</a></li>
+                <li><a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OKUMA SIRASI -->
     <section class="section">
       <div class="container">
-        <div class="card">
-          <h3>Rehberler yakında</h3>
-          <p>Dolandırıcılık türleri, phishing ve hesap güvenliğini adım adım anlatan rehberler yakında burada olacak.</p>
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Önerilen Okuma Sırası</h2>
+          </div>
+        </div>
+        <ol class="steps">
+          <li><strong>Tehditleri tanıyın.</strong> Sahte destek ve phishing'in nasıl çalıştığını öğrenin.</li>
+          <li><strong>Seed phrase'i anlayın.</strong> Güvenliğin kalbindeki bu kavramı öğrenin.</li>
+          <li><strong>Hesabınızı güçlendirin.</strong> 2FA ve güvenlik listesini uygulayın.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- İLGİLİ REHBERLER -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">İlgili Rehberler</h2>
+          </div>
+        </div>
+        <div class="quick-links">
+          <a href="/sahte-destek/">Sahte Destek Dolandırıcılığı</a>
+          <a href="/phishing/">Phishing (Oltalama)</a>
+          <a href="/hesap-guvenligi/">Hesap Güvenliği</a>
+          <a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a>
+          <a href="/kripto-cuzdani-nedir/">Kripto Cüzdanı Nedir?</a>
+          <a href="/yanlis-adrese-usdt-gonderdim/">Yanlış Adrese USDT Gönderdim</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GÜVENLİK UYARISI -->
+    <section class="section">
+      <div class="container">
+        <div class="alert alert-danger">
+          <h3>Güvenlik Uyarısı</h3>
+          <p>Seed phrase veya özel anahtarınızı hiçbir kişi, site veya uygulamayla paylaşmayın. Resmî destek ekipleri bunu asla istemez.</p>
+          <p>KriptoAdım'daki içerikler genel bilgilendirme amacı taşır ve yatırım tavsiyesi değildir.</p>
         </div>
       </div>
     </section>

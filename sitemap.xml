@@ -217,6 +217,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kriptoadm.com/sahte-destek/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kriptoadm.com/phishing/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kriptoadm.com/hesap-guvenligi/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kriptoadm.com/hakkimizda/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>

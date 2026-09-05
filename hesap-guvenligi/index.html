@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kripto Hesap Güvenliği: 2FA ve Kontrol Listesi</title>
+  <meta name="description" content="Kripto hesabınızı nasıl güvene alırsınız? 2FA kurulumu, güçlü parola, adres beyaz listesi ve cihaz güvenliği. Türkiye için adım adım rehber.">
+  <meta name="author" content="KriptoAdım">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://kriptoadm.com/hesap-guvenligi/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Kripto Hesap Güvenliği: 2FA ve Kontrol Listesi">
+  <meta property="og:description" content="Kripto hesabınızı nasıl güvene alırsınız? 2FA kurulumu, güçlü parola, adres beyaz listesi ve cihaz güvenliği. Türkiye için adım adım rehber.">
+  <meta property="og:url" content="https://kriptoadm.com/hesap-guvenligi/">
+  <meta property="og:site_name" content="KriptoAdım">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kripto Hesap Güvenliği: 2FA ve Kontrol Listesi">
+  <meta name="twitter:description" content="Kripto hesabınızı nasıl güvene alırsınız? 2FA kurulumu, güçlü parola, adres beyaz listesi ve cihaz güvenliği. Türkiye için adım adım rehber.">
+
+  <!-- Schema.org: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://kriptoadm.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Güvenlik", "item": "https://kriptoadm.com/guvenlik/"},
+      {"@type": "ListItem", "position": 3, "name": "Hesap Güvenliği", "item": "https://kriptoadm.com/hesap-guvenligi/"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Kripto Hesap Güvenliği: 2FA ve Kontrol Listesi",
+    "description": "Kripto hesabınızı nasıl güvene alırsınız? 2FA kurulumu, güçlü parola, adres beyaz listesi ve cihaz güvenliği. Türkiye için adım adım rehber.",
+    "inLanguage": "tr-TR",
+    "author": {"@type": "Organization", "name": "KriptoAdım"},
+    "publisher": {"@type": "Organization", "name": "KriptoAdım"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kriptoadm.com/hesap-guvenligi/"},
+    "datePublished": "2026-09-05",
+    "dateModified": "2026-09-05"
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "2FA nedir ve neden önemlidir?", "acceptedAnswer": {"@type": "Answer", "text": "2FA, şifrenize ek olarak ikinci bir doğrulama katmanı ekler. Şifreniz çalınsa bile hesabınıza girilmesini zorlaştırır."}},
+      {"@type": "Question", "name": "SMS ile 2FA mı, uygulama ile 2FA mı?", "acceptedAnswer": {"@type": "Answer", "text": "Kimlik doğrulama uygulaması (ör. Google Authenticator) genellikle SMS'e göre daha güvenli kabul edilir."}},
+      {"@type": "Question", "name": "Hesabım çalınırsa ne yapmalıyım?", "acceptedAnswer": {"@type": "Answer", "text": "Parolanızı hemen değiştirin, yetkisiz oturumları kapatın ve resmi desteğe bildirin."}},
+      {"@type": "Question", "name": "Adres beyaz listesi nedir?", "acceptedAnswer": {"@type": "Answer", "text": "Yalnızca onayladığınız adreslere çekim yapılmasına izin veren bir güvenlik özelliğidir."}}
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="KriptoAdım — Ana Sayfa">
+        <svg width="34" height="34" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="11" fill="#0F766E"/><path d="M11 28h6v-6h6v-6h7" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="logo-text">Kripto<span>Adım</span></div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" role="navigation" aria-label="Ana Menü">
+        <a href="/baslangic/">Başlangıç</a>
+        <a href="/borsalar/">Borsalar</a>
+        <a href="/usdt-transfer/">USDT &amp; Transfer</a>
+        <a href="/cuzdan/">Cüzdan</a>
+        <a href="/guvenlik/" class="active">Güvenlik</a>
+        <a href="/sorun-cozme/">Sorun Çözme</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <ol>
+          <li><a href="/">Ana Sayfa</a></li>
+          <li><a href="/guvenlik/">Güvenlik</a></li>
+          <li>Hesap Güvenliği</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Page header -->
+    <div class="page-header">
+      <div class="container">
+        <h1>Kripto Hesap Güvenliği: 2FA ve Kontrol Listesi</h1>
+        <p class="lead">Kısa cevap: Hesap güvenliğinin temeli üç şeydir — 2FA açık, parola güçlü ve seed phrase yalnızca sizde. Bunlar riski önemli ölçüde azaltır.</p>
+      </div>
+    </div>
+
+    <!-- GİRİŞ -->
+    <section class="section">
+      <div class="container">
+        <div class="prose">
+          <p>Borsa hesabı, cüzdanınızdan farklıdır: anahtar sizde değil, platformdadır. Bu yüzden hesabınıza erişimi korumak sizin sorumluluğunuzdur. Aşağıdaki adımlar hesabınızın ele geçirilmesini çok daha zor hale getirir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADIM ADIM -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Adım Adım Güvenlik Kurulumu</h2>
+          </div>
+        </div>
+        <ol class="steps">
+          <li><strong>2FA'yı açın.</strong> Google Authenticator gibi bir kimlik doğrulama uygulaması kullanın; SMS'ten daha güvenlidir.</li>
+          <li><strong>Güçlü ve benzersiz parola belirleyin.</strong> Başka hiçbir yerde kullanmadığınız uzun bir parola seçin.</li>
+          <li><strong>Adres beyaz listesini açın.</strong> Yalnızca onayladığınız adreslere çekim yapılabilsin.</li>
+          <li><strong>Oturum ve cihaz bildirimlerini açın.</strong> Yeni girişleri anında görmek için bildirimleri etkinleştirin.</li>
+          <li><strong>E-posta güvenliğinizi sağlayın.</strong> E-posta hesabınıza da 2FA ekleyin; hesap kurtarma çoğu zaman buradan geçer.</li>
+        </ol>
+        <div class="prose" style="margin-top:18px;">
+          <p>Adım adım platform ayarları için borsanın resmî desteğine bakın: <a href="https://www.binance.com/en/support" target="_blank" rel="nofollow noopener">Binance Destek</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTROL LİSTESİ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Günlük Güvenlik Kontrol Listesi</h2>
+          </div>
+        </div>
+        <ul class="check-list">
+          <li>Genel Wi-Fi üzerinde borsa işlemi yapmayın</li>
+          <li>Seed phrase'i fotoğraf veya ekran görüntüsü olarak saklamayın</li>
+          <li>Bilmediğiniz bağlantılara tıklamayın</li>
+          <li>Cihazınızı ve uygulamaları güncel tutun</li>
+          <li>Hesap hareketlerini düzenli kontrol edin</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DİĞER REHBERLER -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">İlgili Tehditler</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Hesabınızı ele geçirmeye çalışan iki yaygın yöntem daha var:</p>
+          <ul>
+            <li><a href="/phishing/">Phishing (Oltalama)</a> — Sahte sitelerle bilgilerinizi çalmak.</li>
+            <li><a href="/sahte-destek/">Sahte Destek</a> — Resmi destek ekibini taklit eden dolandırıcılar.</li>
+          </ul>
+          <p>Seed phrase'in kendisini korumayı da öğrenin: <a href="/seed-phrase-nedir/">Seed Phrase Nedir?</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KISA CEVAPLAR -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Kısa Cevaplar</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p><strong>2FA nedir ve neden önemlidir?</strong> 2FA, şifrenize ek olarak ikinci bir doğrulama katmanı ekler. Şifreniz çalınsa bile hesabınıza girilmesini zorlaştırır.</p>
+          <p><strong>SMS ile 2FA mı, uygulama ile 2FA mı?</strong> Kimlik doğrulama uygulaması (ör. Google Authenticator) genellikle SMS'e göre daha güvenli kabul edilir.</p>
+          <p><strong>Hesabım çalınırsa ne yapmalıyım?</strong> Parolanızı hemen değiştirin, yetkisiz oturumları kapatın ve resmi desteğe bildirin.</p>
+          <p><strong>Adres beyaz listesi nedir?</strong> Yalnızca onayladığınız adreslere çekim yapılmasına izin veren bir güvenlik özelliğidir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GÜNCELLİK NOTU -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Güncellik Notu</h2>
+          </div>
+        </div>
+        <div class="prose">
+          <p>Güvenlik özellikleri ve ayar adımları platforma göre değişebilir. Ayarlar için <a href="https://www.binance.com/en/support" target="_blank" rel="nofollow noopener">borsanın resmî desteğini</a> esas alın.</p>
+        </div>
+        <span class="last-checked">Son kontrol: Eylül 2026</span>
+        <div class="fine-print" style="margin-top:18px;">
+          <p>KriptoAdım'daki içerikler genel bilgilendirme amacı taşır ve yatırım tavsiyesi değildir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="info-card">
+          <h3>Tüm güvenlik rehberlerine göz atın</h3>
+          <p>Dolandırıcılık türlerini tanıyın, korunma yollarını öğrenin.</p>
+          <p style="margin-top:14px;"><a href="/guvenlik/" class="btn btn-primary">Tüm Güvenlik Rehberleri →</a></p>
+          <p class="fine-print">Seed phrase'i hiç kimseyle paylaşmayın.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="/" class="logo" style="font-size:18px;">Kripto<span>Adım</span></a>
+          <p class="footer-brand">Türkiye için adım adım kripto rehberleri ve sorun çözme merkezi.</p>
+        </div>
+        <div>
+          <h4>Rehberler</h4>
+          <ul>
+            <li><a href="/borsalar/binance-tr/">Binance TR</a></li>
+            <li><a href="/borsalar/okx-tr/">OKX TR</a></li>
+            <li><a href="/usdt-transfer/">USDT</a></li>
+            <li><a href="/cuzdan/">Cüzdan</a></li>
+            <li><a href="/sorun-cozme/">Sorun Çözme</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kurumsal</h4>
+          <ul>
+            <li><a href="/hakkimizda/">Hakkımızda</a></li>
+            <li><a href="/editorial-policy/">Editoryal Politika</a></li>
+            <li><a href="/affiliate-disclosure/">Ortaklık Açıklaması</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Yasal</h4>
+          <ul>
+            <li><a href="/privacy-policy/">Gizlilik Politikası</a></li>
+            <li><a href="/terms/">Kullanım Koşulları</a></li>
+            <li><a href="/risk-disclosure/">Risk Açıklaması</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 KriptoAdım. Tüm hakları saklıdır. Bu sitedeki bilgiler yatırım tavsiyesi değildir.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('mobileMenuBtn');
+      var nav = document.getElementById('mainNav');
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>
