@@ -491,6 +491,29 @@ img { max-width: 100%; height: auto; display: block; }
 .info-card li { position: relative; padding-left: 22px; font-size: 15px; margin-bottom: 8px; color: var(--teal-800); }
 .info-card li::before { content: "•"; position: absolute; left: 4px; color: var(--teal-500); font-weight: 700; }
 
+/* 顶部快速费率框（hero 内的关键信息卡） */
+.at-a-glance {
+  margin-top: 22px;
+  background: #fff;
+  border: 1px solid var(--teal-100);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  color: var(--teal-900);
+  max-width: 720px;
+}
+.at-a-glance .last-checked { margin: 0 0 12px; }
+.at-a-glance ul { list-style: none; margin: 0; }
+.at-a-glance li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 14.5px;
+  line-height: 1.55;
+  margin-bottom: 7px;
+  color: var(--teal-800);
+}
+.at-a-glance li::before { content: "•"; position: absolute; left: 4px; color: var(--teal-500); font-weight: 700; }
+.at-a-glance li:last-child { margin-bottom: 0; }
+
 /* FAQ */
 .faq details {
   background: #fff;
