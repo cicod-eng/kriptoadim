@@ -640,6 +640,18 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .page-header .byline a:hover { color: var(--teal-100); }
 
+/* 文章页信任元数据（byline 下方：Son kontrol / Kaynak / Doğrulama） */
+.page-header .article-meta {
+  margin-top: 8px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, .72);
+}
+.page-header .article-meta strong {
+  font-weight: 600;
+  color: rgba(255, 255, 255, .94);
+}
+
 /* 作者页 */
 .author-header {
   display: flex;
