@@ -625,3 +625,64 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--teal-800);
   font-weight: 500;
 }
+
+/* 文章页署名（标题下方 byline） */
+.page-header .byline {
+  margin-top: 12px;
+  font-size: 14.5px;
+  color: rgba(255, 255, 255, .78);
+}
+.page-header .byline a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.page-header .byline a:hover { color: var(--teal-100); }
+
+/* 作者页 */
+.author-header {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+.author-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, .22);
+  background: var(--teal-800);
+  flex-shrink: 0;
+}
+.author-role {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--teal-400);
+}
+
+/* 团队成员卡片 */
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+.team-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.team-card .author-avatar { width: 64px; height: 64px; border: none; }
+.team-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 3px; }
+.team-card h3 a { color: var(--text); }
+.team-card h3 a:hover { color: var(--teal-700); }
+.team-card p { color: var(--text-muted); font-size: 14.5px; }
