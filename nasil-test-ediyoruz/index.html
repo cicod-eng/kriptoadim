@@ -92,44 +92,106 @@
     <section class="section">
       <div class="container">
         <div class="prose">
-          <p>KriptoAdım'daki rehberler, "muhtemelen böyledir" yerine doğrulanabilir bilgiye dayanır. Her rehber hazırlanırken ilgili platformun resmî belgeleriyle güncel uygulama akışını karşılaştırır, değişebilecek bilgileri bir kontrol tarihiyle işaretleriz. Doğrudan test edemediğimiz bir işlemi, test edilmiş gibi sunmayız.</p>
+          <p>KriptoAdım'daki rehberler, "muhtemelen böyledir" yaklaşımı yerine doğrulanabilir bilgiye dayanır.</p>
+          <p>Her rehber hazırlanırken ilgili platformun resmî belgeleri, güncel uygulama veya web akışı ve Türkiye'ye özgü kurallar karşılaştırılır. Ücret, limit, desteklenen ağ veya işlem adımı gibi zaman içinde değişebilecek bilgiler ayrıca kontrol edilir.</p>
+          <p>Doğrudan test edemediğimiz bir işlemi test edilmiş gibi sunmayız.</p>
 
           <h2>Genel Yaklaşımımız</h2>
+          <p>Bir rehber hazırlarken genellikle şu sırayı izleriz:</p>
           <ul>
-            <li>Önce borsanın resmî yardım merkezine ve kullanım belgelerine bakarız.</li>
+            <li>Önce ilgili platformun resmî yardım merkezi ve kullanım belgelerini kontrol ederiz.</li>
             <li>Ücret, limit ve işlem adımlarını güncel platform bilgileriyle karşılaştırırız.</li>
-            <li>Mümkün olduğunda uygulamadaki gerçek işlem akışını inceleriz.</li>
-            <li>Türkiye'ye özgü banka transferi ve yerel kuralları ayrıca kontrol ederiz.</li>
-            <li>Kesin doğrulanamayan bilgileri varsayım olarak sunmayız.</li>
+            <li>Mümkün olduğunda uygulamadaki veya web sitesindeki gerçek işlem akışını inceleriz.</li>
+            <li>Türkiye'ye özgü banka transferleri, kimlik doğrulama ve yerel platform kurallarını ayrıca kontrol ederiz.</li>
+            <li>Bir bilgi birden fazla resmî kaynakta yer alıyorsa bunları karşılaştırırız.</li>
+            <li>Kesin olarak doğrulanamayan bilgileri kesin bir gerçek gibi sunmayız.</li>
           </ul>
 
-          <h2>Örnek: Binance TR Para Yatırma Rehberi</h2>
-          <p>Bir Binance TR para yatırma rehberini hazırlarken izlediğimiz adımlar şunlardır:</p>
+          <h2>Kaynak Önceliğimiz</h2>
+          <p>Tüm kaynakları aynı ağırlıkta değerlendirmeyiz.</p>
+          <p>Mümkün olduğunda aşağıdaki sırayı izleriz:</p>
           <ol>
-            <li>Binance TR uygulamasındaki TRY yatırma ekranını kontrol ederiz.</li>
-            <li>Desteklenen bankaları kaydederiz.</li>
-            <li>FAST / EFT / Havale ayrımını kontrol ederiz.</li>
-            <li>Minimum ve maksimum limitleri doğrularız.</li>
-            <li>Binance TR yardım merkeziyle karşılaştırırız.</li>
-            <li>Bilgilerin kontrol tarihini kaydederiz.</li>
+            <li>Düzenleyici kurumların ve kamu kuruluşlarının resmî duyuruları</li>
+            <li>İlgili borsanın veya hizmet sağlayıcının resmî yardım merkezi ve kullanım koşulları</li>
+            <li>Uygulamadaki veya web sitesindeki güncel işlem ekranları</li>
+            <li>İlgili blok zinciri ağının veya projenin resmî teknik dokümantasyonu</li>
+            <li>Güvenilir ve konuya doğrudan ilgili ikincil kaynaklar</li>
           </ol>
+          <p>Resmî kaynak ile uygulamadaki güncel işlem akışı arasında fark görürsek, rehberi yayımlamadan önce bilgiyi yeniden kontrol ederiz.</p>
+
+          <h2>Örnek: Binance TR Para Yatırma Rehberi</h2>
+          <p>Bir Binance TR para yatırma rehberini hazırlarken aşağıdaki noktaları kontrol ederiz:</p>
+          <ol>
+            <li>Binance TR uygulamasındaki TRY yatırma ekranını inceleriz.</li>
+            <li>Desteklenen banka ve para yatırma yöntemlerini kontrol ederiz.</li>
+            <li>FAST, EFT ve Havale arasındaki farkları doğrularız.</li>
+            <li>Varsa minimum ve maksimum işlem limitlerini kontrol ederiz.</li>
+            <li>Uygulamada görünen bilgilerle Binance TR yardım merkezindeki bilgileri karşılaştırırız.</li>
+            <li>İşlem sırasında kullanıcıdan istenen bilgileri ve olası uyarıları kontrol ederiz.</li>
+            <li>Bilgilerin en son ne zaman kontrol edildiğini kaydederiz.</li>
+          </ol>
+          <p>Uygulamadaki bilgi ile resmî yardım merkezi arasında farklılık varsa, bunu rehberde açıkça belirtir veya bilgi netleşene kadar kesin bir ifade kullanmayız.</p>
 
           <h2>Örnek: USDT Transfer Rehberi</h2>
-          <p>USDT transferiyle ilgili bir rehberde ise şunları kontrol ederiz:</p>
+          <p>USDT transferiyle ilgili bir rehber hazırlarken şu noktaları kontrol ederiz:</p>
           <ol>
-            <li>Desteklenen ağları kontrol ederiz.</li>
-            <li>Minimum yatırma ve çekme tutarını kontrol ederiz.</li>
+            <li>Gönderici ve alıcı platformlarda desteklenen ağları kontrol ederiz.</li>
+            <li>Minimum yatırma ve çekme tutarlarını inceleriz.</li>
             <li>Çekim ücretini kontrol ederiz.</li>
             <li>Gönderici ve alıcının aynı ağı desteklediğini doğrularız.</li>
+            <li>Memo, tag veya benzeri ek bilgi gerekip gerekmediğini kontrol ederiz.</li>
+            <li>Ağ seçiminin yanlış yapılması durumunda oluşabilecek riskleri açıklarız.</li>
+            <li>Varsa platformun güncel ağ bakım veya transfer kısıtlamalarını kontrol ederiz.</li>
           </ol>
+          <p>Transfer ücretleri ve desteklenen ağlar zaman içinde değişebildiği için bu bilgileri sabit kabul etmeyiz.</p>
+
+          <h2>Doğrudan Test Ettiğimiz İşlemler</h2>
+          <p>Bir işlemi doğrudan uygulama veya web sitesi üzerinden kontrol ettiğimizde, rehberde mümkün olduğunca bunun hangi bölümünün doğrulandığını açıklarız.</p>
+          <p>Örneğin:</p>
+          <ul>
+            <li>kayıt ekranı,</li>
+            <li>para yatırma menüsü,</li>
+            <li>desteklenen ağ listesi,</li>
+            <li>çekim ücreti,</li>
+            <li>kimlik doğrulama adımı</li>
+          </ul>
+          <p>gibi noktalar ayrı ayrı kontrol edilebilir.</p>
+          <p>Bir işlemin yalnızca belirli bir bölümü incelendiyse, tüm işlemin baştan sona test edildiği izlenimini vermeyiz.</p>
 
           <h2>Test Edemediğimizde Ne Yapıyoruz?</h2>
-          <p>Bir işlemi doğrudan test edemiyorsak, ilgili bölümde bunu açıkça belirtir ve bilgiyi resmî dokümana dayandırırız. "Test edilmedi ama muhtemelen doğru" gibi bir yaklaşım kullanmayız.</p>
+          <p>Bir işlemi doğrudan test edemiyorsak bunu gizlemeyiz.</p>
+          <p>Bu durumda:</p>
+          <ul>
+            <li>ilgili platformun resmî dokümanını kullanırız,</li>
+            <li>bilginin hangi kaynağa dayandığını belirtiriz,</li>
+            <li>doğrudan kullanıcı deneyimi yaşanmış gibi yazmayız.</li>
+          </ul>
+          <p>"Test edilmedi ama muhtemelen doğrudur" yaklaşımını kullanmayız.</p>
+          <p>Bilgi yeterince doğrulanamıyorsa kesin bir ifade kullanmak yerine belirsizliği açıkça belirtiriz.</p>
+
+          <h2>Bilgiler Çeliştiğinde Ne Yapıyoruz?</h2>
+          <p>Bazen bir platformun yardım merkezi, uygulama ekranı ve kullanım koşullarında farklı bilgiler görülebilir.</p>
+          <p>Böyle durumlarda:</p>
+          <ol>
+            <li>Kaynakların güncelleme tarihlerini kontrol ederiz.</li>
+            <li>Güncel uygulama akışını tekrar inceleriz.</li>
+            <li>Mümkünse ikinci bir resmî kaynaktan doğrulama yaparız.</li>
+            <li>Çelişki devam ediyorsa rehberde bunu açıkça belirtiriz.</li>
+          </ol>
+          <p>Doğrulanmamış bir bilgiyi yalnızca başka sitelerde tekrarlandığı için doğru kabul etmeyiz.</p>
 
           <h2>Son Kontrol Tarihi</h2>
-          <p>Kripto para platformlarının ücretleri, limitleri ve uygulama adımları sık değişir. Bu yüzden her rehberde mümkün olduğunca bir <strong>son kontrol tarihi</strong> bulunur. Bu tarih, bilginin en son ne zaman doğrulandığını gösterir.</p>
+          <p>Kripto para platformlarının ücretleri, limitleri, desteklenen ağları ve uygulama adımları zaman içinde değişebilir.</p>
+          <p>Bu nedenle rehberlerde mümkün olduğunca bir <strong>Son kontrol</strong> tarihi bulunur.</p>
+          <p>Bu tarih, sayfanın ilk yayımlandığı tarihi değil, değişebilecek önemli bilgilerin en son ne zaman yeniden kontrol edildiğini gösterir.</p>
+          <p>Önemli bir değişiklik tespit edildiğinde ilgili rehber yeniden incelenir ve gerekiyorsa güncellenir.</p>
 
-          <p>Bu yöntemler, <a href="/editorial-policy/">Editoryal Politika</a> sayfamızdaki ilkelerle birlikte çalışır. Rehberlerimizi hazırlayan editörler hakkında bilgi için <a href="/ekibimiz/">Ekibimiz</a> sayfasına bakabilir, <a href="/yazar/emre-kaya/">Emre Kaya yazar profilini</a> inceleyebilirsiniz.</p>
+          <h2>Hata Bildirimi</h2>
+          <p>Tüm kontrollerimize rağmen bilgiler zaman içinde değişebilir veya bir hata gözden kaçabilir.</p>
+          <p>Bir rehberde yanlış ya da güncel olmayan bilgi fark ederseniz bize <strong><a href="mailto:info@kriptoadm.com">info@kriptoadm.com</a></strong> adresinden ulaşabilirsiniz. Bildirim doğrulandıktan sonra ilgili bölüm düzeltilir ve gerektiğinde son kontrol tarihi güncellenir.</p>
+
+          <p>Bu yöntemler <a href="/editorial-policy/">Editoryal Politika</a> kapsamında uygulanır.</p>
+          <p>İçerikleri hazırlayan ekip hakkında daha fazla bilgi için <a href="/ekibimiz/">Ekibimiz</a> sayfasını ziyaret edebilir, <a href="/yazar/emre-kaya/">Emre Kaya yazar profilini</a> inceleyebilirsiniz.</p>
         </div>
       </div>
     </section>
