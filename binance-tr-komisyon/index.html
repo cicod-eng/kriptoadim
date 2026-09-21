@@ -49,7 +49,7 @@
     "publisher": {"@type": "Organization", "name": "KriptoAdım"},
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://kriptoadm.com/binance-tr-komisyon/"},
     "datePublished": "2026-09-05",
-    "dateModified": "2026-09-05"
+    "dateModified": "2026-09-22"
   }
   </script>
 
@@ -61,7 +61,7 @@
     "mainEntity": [
       {"@type": "Question", "name": "Binance TR para yatırma komisyonu var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Mevcut Binance TR ücret tablosunda TRY yatırma işlemleri ücretsiz olarak belirtilmektedir."}},
       {"@type": "Question", "name": "Binance TR para çekme komisyonu var mı?", "acceptedAnswer": {"@type": "Answer", "text": "TRY çekme işlemleri de mevcut ücret tablosunda ücretsiz olarak gösterilmektedir."}},
-      {"@type": "Question", "name": "Binance TR spot komisyonu ne kadar?", "acceptedAnswer": {"@type": "Answer", "text": "Maker/taker oranı kullanıcı seviyesi ve güncel ücret tarifesine göre değişebilir. Resmî fee schedule kontrol edilmelidir."}},
+      {"@type": "Question", "name": "Binance TR spot komisyonu ne kadar?", "acceptedAnswer": {"@type": "Answer", "text": "Standart kullanıcı seviyesinde spot komisyonu maker ve taker için %0,10 olarak uygulanır. VIP kademesi ve BNB indirimiyle değişebilir; güncel oran için resmî ücret sayfası kontrol edilmelidir."}},
       {"@type": "Question", "name": "Binance TR'den Binance'e transfer ücretsiz mi?", "acceptedAnswer": {"@type": "Answer", "text": "Mevcut ücret tablosunda Binance.com ile Binance TR arasındaki uygun kripto varlık çekimleri ücretsizdir."}},
       {"@type": "Question", "name": "USDT çekme ücreti ne kadar?", "acceptedAnswer": {"@type": "Answer", "text": "Seçilen blockchain ağı ve güncel çekim tarifesine göre değişir."}},
       {"@type": "Question", "name": "TRC20 mu ERC20 mi daha ucuz?", "acceptedAnswer": {"@type": "Answer", "text": "Ücretler zaman içinde değişebilir. Önce her iki tarafın desteklediği ağları belirleyip işlem ekranındaki güncel çekim ücretini karşılaştırın."}},
@@ -142,6 +142,7 @@
             <li>Harici cüzdana kripto çekme</li>
           </ul>
           <p>Binance TR'nin mevcut ücret sayfasında TRY yatırma ve çekme işlemleri ücretsiz olarak belirtilmektedir. Binance.com ile Binance TR arasındaki uygun kripto transferleri de mevcut ücret tablosunda ücretsiz gösterilir.</p>
+          <p>Spot alım satımda standart komisyon <strong>maker ve taker için %0,10</strong> olarak uygulanır; VIP kademesi ve BNB indirimiyle değişebilir.</p>
           <p>Harici blockchain adresine yapılan kripto çekimlerinde ise ağ ve varlığa göre değişen çekim ücreti uygulanabilir.</p>
         </div>
       </div>
@@ -216,16 +217,16 @@
           </div>
         </div>
         <div class="prose">
-          <p>Spot piyasada kripto alıp satarken işlem komisyonu uygulanabilir. Örneğin TRY ile USDT almak veya USDT ile başka bir kripto almak bir spot işlem olabilir.</p>
-          <p>Komisyon oranı şu faktörlere göre değişebilir:</p>
+          <p>Spot piyasada kripto alıp satarken işlem komisyonu uygulanır. Örneğin TRY ile USDT almak veya USDT ile başka bir kripto almak bir spot işlemdir.</p>
+          <p>Standart kullanıcı seviyesinde (VIP 0) spot komisyonu <strong>maker ve taker için %0,10</strong> (0,10%) olarak uygulanmaktadır. Bu, Binance TR'nin resmî ücret tablosundaki temel orandır.</p>
+          <p>Oran şu faktörlere göre değişebilir:</p>
           <ul>
-            <li>Kullanıcı seviyesi</li>
+            <li>Kullanıcı seviyesi (30 günlük işlem hacmine göre VIP kademesi)</li>
             <li>Maker veya taker olmanız</li>
-            <li>İşlem çifti</li>
+            <li>BNB ile ücret ödeme indirimi</li>
             <li>Güncel kampanyalar</li>
-            <li>Platformun ücret politikası</li>
           </ul>
-          <p>Bu nedenle internette gördüğünüz eski sabit oranlara güvenmeyin.</p>
+          <p>VIP kademeniz yükseldikçe oran düşebilir; BNB ile ödeme yapıldığında standart oran yaklaşık %25 indirimle %0,075'e inebilir. Güncel oranınızı Binance TR'nin resmî ücret sayfasından kontrol edin.</p>
         </div>
       </div>
     </section>
@@ -274,7 +275,7 @@
         <div class="prose">
           <p>Basit mantık:</p>
           <p><strong>İşlem tutarı × komisyon oranı = işlem ücreti</strong></p>
-          <p>Örneğin varsayımsal olarak komisyon oranı %0,10 olsaydı:</p>
+          <p>Standart spot oranı <strong>%0,10</strong> üzerinden örnek:</p>
         </div>
         <div class="table-wrap">
           <table class="cmp-table">
@@ -289,7 +290,7 @@
           </table>
         </div>
         <div class="prose" style="margin-top:18px;">
-          <p>Bu tablo yalnızca hesaplama mantığını göstermek içindir. Gerçek işlem oranı için Binance TR'nin güncel fee schedule sayfasını kontrol edin.</p>
+          <p>Bu tablo standart %0,10 oranını esas alır. VIP kademeniz veya BNB indirimiyle gerçek oranınız farklı olabilir; güncel oran için Binance TR'nin ücret sayfasını kontrol edin.</p>
         </div>
       </div>
     </section>
@@ -309,7 +310,7 @@
             <li>Maker/taker oranına</li>
             <li>Kullanıcı seviyesine</li>
           </ul>
-          <p>bağlıdır. Örneğin komisyon oranı %0,10 ise 1.000 TL'lik işlemde yaklaşık 1 TL işlem ücreti oluşur. Ancak bu yalnızca örnektir. Gerçek oranı işlem ekranında kontrol edin.</p>
+          <p>bağlıdır. Standart %0,10 oranla 1.000 TL'lik işlemde yaklaşık 1 TL işlem ücreti oluşur. VIP kademeniz veya BNB indirimiyle bu tutar değişebilir; kesin rakamı işlem ekranında görürsünüz.</p>
         </div>
       </div>
     </section>
@@ -670,7 +671,7 @@
           </details>
           <details>
             <summary>Binance TR spot komisyonu ne kadar?</summary>
-            <div class="faq-body">Maker/taker oranı kullanıcı seviyesi ve güncel ücret tarifesine göre değişebilir. Resmî fee schedule kontrol edilmelidir.</div>
+            <div class="faq-body">Standart kullanıcı seviyesinde spot komisyonu maker ve taker için %0,10 olarak uygulanır. VIP kademesi ve BNB indirimiyle değişebilir; güncel oran için resmî ücret sayfası kontrol edilmelidir.</div>
           </details>
           <details>
             <summary>Binance TR'den Binance'e transfer ücretsiz mi?</summary>
