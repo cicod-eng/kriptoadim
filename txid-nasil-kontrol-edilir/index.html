@@ -178,12 +178,19 @@
             <h2 class="section-title">Durum Nasıl Yorumlanır?</h2>
           </div>
         </div>
-        <div class="prose">
-          <ul>
-            <li><strong>Bekliyor:</strong> İşlem zincire girmiş ama henüz yeterli onayı almamış. Genellikle biraz beklemeniz yeterlidir.</li>
-            <li><strong>Başarılı:</strong> İşlem zincirde tamamlanmış. Bakiye hâlâ görünmüyorsa sorun büyük olasılıkla alıcı platformun yansıtmasındadır.</li>
-            <li><strong>Başarısız:</strong> İşlem zincirde gerçekleşmemiş; fon genellikle gönderen tarafa geri döner.</li>
-          </ul>
+        <div class="table-wrap">
+          <table class="cmp-table">
+            <thead>
+              <tr><th>Durum</th><th>Ne anlama gelir?</th><th>Ne yapmalısınız?</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Bekliyor</td><td>Zincire girmiş, yeterli onayı bekliyor</td><td>Genellikle biraz bekleyin</td></tr>
+              <tr><td>Başarılı</td><td>Zincirde tamamlanmış</td><td>Bakiye yoksa alıcı platformu kontrol edin</td></tr>
+              <tr><td>Başarısız</td><td>Zincirde gerçekleşmemiş</td><td>Fon genellikle gönderene döner</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="prose" style="margin-top:18px;">
           <p>İşlem "Başarılı" göründüğü hâlde alıcı bakiyesinde yoksa, alıcı platformun kaç onay istediğini ve yatırma hizmetinde bakım olup olmadığını kontrol edin. Bu durumu ayrıntılı anlattık: <a href="/usdt-transferi-gelmedi/">USDT Transferi Gelmedi</a>.</p>
         </div>
       </div>
